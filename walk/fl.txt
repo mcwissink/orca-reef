@@ -1,0 +1,17 @@
+set audio.driver sdl2
+set midi.autoconnect 1
+set synth.ladspa.active 1
+load ~/Documents/soundfonts/keys.sf2
+
+ladspa_effect reverb /usr/lib64/ladspa/g2reverb.so
+ladspa_link reverb "In L" Main:L
+ladspa_link reverb "In R" Main:R
+ladspa_link reverb "Out L" Main:L
+ladspa_link reverb "Out R" Main:R
+ladspa_start
+
+select 0 2 0 20
+select 1 2 0 21
+select 2 2 0 10
+select 4 2 0 1
+select 5 2 0 45

@@ -1,7 +1,13 @@
 set audio.driver sdl2
 set midi.autoconnect 1
 set synth.ladspa.active 1
-load ~/Documents/soundfonts/merlin.sf2
+load ~/Documents/soundfonts/crossing.sf2
+
+ladspa_effect reverb /usr/lib64/ladspa/tap_reverb.so
+ladspa_link reverb "Input Left" Main:L
+ladspa_link reverb "Input Right" Main:R
+ladspa_link reverb "Output Left" Main:L
+ladspa_link reverb "Output Right" Main:R
 
 ladspa_effect compressor1 /usr/lib64/ladspa/dyson_compress_1403.so
 ladspa_link compressor1 Input Main:L
@@ -13,4 +19,8 @@ ladspa_link compressor2 Output Main:R
 
 ladspa_start
 
-select 0 2 0 2
+select 0 2 2 0 
+select 1 2 10 87
+select 2 2 0 48
+select 8 2 1 120 
+
