@@ -1,0 +1,16 @@
+set audio.driver sdl2
+set midi.autoconnect 1
+set synth.ladspa.active 1
+load ~/Documents/soundfonts/creative.sf2
+
+ladspa_effect compressor1 /usr/lib64/ladspa/dyson_compress_1403.so
+ladspa_link compressor1 Input Main:L
+ladspa_link compressor1 Output Main:L
+
+ladspa_effect compressor2 /usr/lib64/ladspa/dyson_compress_1403.so
+ladspa_link compressor2 Input Main:R
+ladspa_link compressor2 Output Main:R
+
+ladspa_start
+
+select 0 2 0 2
