@@ -1,3 +1,0 @@
-set audio.driver sdl2
-set midi.autoconnect 1
-load ~/Documents/soundfonts/merlin.sf2
