@@ -1,2 +1,0 @@
-set audio.driver sdl2
-set midi.autoconnect 1
