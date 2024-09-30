@@ -31,9 +31,9 @@
       <track muted="0" name="Kick power" solo="0" type="0">
         <instrumenttrack basenote="57" fxch="0" pan="0" pitch="0" pitchrange="1" usemasterpitch="1" vol="37.600002">
           <instrument name="kicker">
-            <kicker click="0" decay="360" decay_denominator="4" decay_numerator="4" decay_syncmode="0" dist="1.2" distend="0.80000001" endfreq="30" endnote="0" env="0.163" gain="1" noise="0.2" slope="0.37200001" startfreq="145" startnote="0" version="1"/>
+            <kicker click="0.1" decay="360" decay_denominator="4" decay_numerator="4" decay_syncmode="0" dist="1.2" distend="0.80000001" endfreq="30" endnote="0" env="0.163" gain="1" noise="0.2" slope="0.37200001" startfreq="145" startnote="0" version="1"/>
           </instrument>
-          <eldata fcut="897" fres="0.5" ftype="0" fwet="1">
+          <eldata fcut="500" fres="1.38" ftype="0" fwet="1">
             <elvol amt="1" att="0.0080000004" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
             <elcut amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
             <elres amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
