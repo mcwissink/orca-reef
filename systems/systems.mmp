@@ -1,28 +1,27 @@
 <?xml version="1.0"?>
-<!DOCTYPE lmms-project>
-<lmms-project type="song" version="1.0" creatorversion="1.2.2" creator="LMMS">
-  <head timesig_numerator="4" timesig_denominator="4" mastervol="100" masterpitch="0" bpm="140"/>
+<lmms-project creator="LMMS" creatorversion="1.2.2" type="song" version="1.0">
+  <head bpm="140" masterpitch="0" mastervol="100" timesig_denominator="4" timesig_numerator="4"/>
   <song>
-    <trackcontainer y="5" type="song" visible="1" width="600" height="300" maximized="0" minimized="0" x="5">
-      <track type="0" name="Nescaline" muted="0" solo="0">
-        <instrumenttrack basenote="57" fxch="0" vol="64.800003" pitch="0" pan="0" usemasterpitch="1" pitchrange="1">
+    <trackcontainer height="300" maximized="0" minimized="0" type="song" visible="1" width="600" x="5" y="5">
+      <track muted="0" name="Nescaline" solo="0" type="0">
+        <instrumenttrack basenote="57" fxch="0" pan="0" pitch="0" pitchrange="1" usemasterpitch="1" vol="64.800003">
           <instrument name="nes">
-            <nes nmode4="0" nswp4="0" vol1="15" vol2="15" vol3="15" vol4="15" swrate1="0" swrate2="0" nq4="1" nfreq4="0" swamt1="0" swamt2="0" nfrqmode4="0" envlen1="0" envloop1="0" envlen2="0" envloop2="0" envlen4="0" envloop4="0" vibr="0" on1="0" on2="0" on3="1" dc1="0" on4="0" dc2="2" envon1="0" crs1="0" envon2="0" crs2="0" crs3="0" envon4="0" vol="1" sweep1="0" sweep2="0"/>
+            <nes crs1="0" crs2="0" crs3="0" dc1="0" dc2="2" envlen1="0" envlen2="0" envlen4="0" envloop1="0" envloop2="0" envloop4="0" envon1="0" envon2="0" envon4="0" nfreq4="0" nfrqmode4="0" nmode4="0" nq4="1" nswp4="0" on1="0" on2="0" on3="1" on4="0" swamt1="0" swamt2="0" sweep1="0" sweep2="0" swrate1="0" swrate2="0" vibr="0" vol="1" vol1="15" vol2="15" vol3="15" vol4="15"/>
           </instrument>
-          <eldata fwet="1" fres="0.5" ftype="0" fcut="9800">
-            <elvol amt="0.83499998" lspd="0.1" pdel="0" sustain="0.324" hold="0.112" lspd_numerator="4" lpdel="0" latt="0" lamt="0" rel="1.108" lshp="0" ctlenvamt="0" dec="0.71600002" lspd_denominator="4" x100="0" lspd_syncmode="0" att="0.016000001" userwavefile=""/>
-            <elcut amt="0" lspd="0.1" pdel="0" sustain="0.5" hold="0.5" lspd_numerator="4" lpdel="0" latt="0" lamt="0" rel="0.1" lshp="0" ctlenvamt="0" dec="0.5" lspd_denominator="4" x100="0" lspd_syncmode="0" att="0" userwavefile=""/>
-            <elres amt="0" lspd="0.1" pdel="0" sustain="0.5" hold="0.5" lspd_numerator="4" lpdel="0" latt="0" lamt="0" rel="0.1" lshp="0" ctlenvamt="0" dec="0.5" lspd_denominator="4" x100="0" lspd_syncmode="0" att="0" userwavefile=""/>
+          <eldata fcut="9800" fres="0.5" ftype="0" fwet="1">
+            <elvol amt="0.83499998" att="0.016000001" ctlenvamt="0" dec="0.71600002" hold="0.112" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="1.108" sustain="0.324" userwavefile="" x100="0"/>
+            <elcut amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+            <elres amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
           </eldata>
-          <chordcreator chordrange="1" chord="0" chord-enabled="0"/>
-          <arpeggiator arpcycle="0" arpskip="0" arptime="200" arpgate="100" arprange="1" arp-enabled="0" arptime_denominator="4" arpdir="0" arptime_syncmode="0" arpmiss="0" arpmode="0" arp="0" arptime_numerator="4"/>
-          <midiport readable="1" outputcontroller="0" fixedinputvelocity="-1" writable="0" outputchannel="1" inputcontroller="0" outputprogram="1" basevelocity="63" inports="14:0 Midi Through:Midi Through Port-0" fixedoutputvelocity="-1" inputchannel="0" fixedoutputnote="-1"/>
-          <fxchain numofeffects="2" enabled="1">
-            <effect on="1" wet="0.41999999" autoquit_denominator="4" autoquit="1" gate="0" autoquit_numerator="4" name="reverbsc" autoquit_syncmode="0">
+          <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+          <arpeggiator arp="0" arp-enabled="0" arpcycle="0" arpdir="0" arpgate="100" arpmiss="0" arpmode="0" arprange="1" arpskip="0" arptime="200" arptime_denominator="4" arptime_numerator="4" arptime_syncmode="0"/>
+          <midiport basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" inports="14:0 Midi Through:Midi Through Port-0" inputchannel="0" inputcontroller="0" outputchannel="1" outputcontroller="0" outputprogram="1" readable="1" writable="0"/>
+          <fxchain enabled="1" numofeffects="2">
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="reverbsc" on="1" wet="0.41999999">
               <ReverbSCControls color="15000" input_gain="0" output_gain="0" size="0.85999995"/>
               <key/>
             </effect>
-            <effect on="1" wet="1" autoquit_denominator="4" autoquit="1" gate="0" autoquit_numerator="4" name="ladspaeffect" autoquit_syncmode="0">
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="ladspaeffect" on="1" wet="1">
               <ladspacontrols ports="5">
                 <port00 data="1990"/>
                 <port01 data="33"/>
@@ -31,735 +30,735 @@
                 <port04 data="0.68000001"/>
               </ladspacontrols>
               <key>
-                <attribute value="vynil_1905" name="file"/>
-                <attribute value="vynil" name="plugin"/>
+                <attribute name="file" value="vynil_1905"/>
+                <attribute name="plugin" value="vynil"/>
               </key>
             </effect>
           </fxchain>
         </instrumenttrack>
       </track>
-      <track type="0" name="Smooth Saw" muted="0" solo="0">
-        <instrumenttrack basenote="45" fxch="0" vol="34.400002" pitch="0" pan="0" usemasterpitch="1" pitchrange="1">
+      <track muted="0" name="Smooth Saw" solo="0" type="0">
+        <instrumenttrack basenote="45" fxch="0" pan="0" pitch="0" pitchrange="1" usemasterpitch="1" vol="34.400002">
           <instrument name="zynaddsubfx">
-            <zynaddsubfx bandwidth="64" rescenterfreq="64" forwardmidicc="1" modifiedcontrollers="74," filterfreq="27" portamento="0" fmgain="127" filterq="64" resbandwidth="64">
-              <ZynAddSubFX-data version-major="2" version-revision="1" version-minor="4" ZynAddSubFX-author="Nasca Octavian Paul">
+            <zynaddsubfx bandwidth="64" filterfreq="27" filterq="64" fmgain="127" forwardmidicc="1" modifiedcontrollers="74," portamento="0" resbandwidth="64" rescenterfreq="64">
+              <ZynAddSubFX-data ZynAddSubFX-author="Nasca Octavian Paul" version-major="2" version-minor="4" version-revision="1">
                 <INFORMATION>
-                  <par_bool value="yes" name="PADsynth_used"/>
+                  <par_bool name="PADsynth_used" value="yes"/>
                 </INFORMATION>
                 <BASE_PARAMETERS>
-                  <par value="16" name="max_midi_parts"/>
-                  <par value="16" name="max_kit_items_per_instrument"/>
-                  <par value="4" name="max_system_effects"/>
-                  <par value="8" name="max_insertion_effects"/>
-                  <par value="3" name="max_instrument_effects"/>
-                  <par value="8" name="max_addsynth_voices"/>
+                  <par name="max_midi_parts" value="16"/>
+                  <par name="max_kit_items_per_instrument" value="16"/>
+                  <par name="max_system_effects" value="4"/>
+                  <par name="max_insertion_effects" value="8"/>
+                  <par name="max_instrument_effects" value="3"/>
+                  <par name="max_addsynth_voices" value="8"/>
                 </BASE_PARAMETERS>
                 <MASTER>
-                  <par value="80" name="volume"/>
-                  <par value="64" name="key_shift"/>
-                  <par_bool value="yes" name="nrpn_receive"/>
+                  <par name="volume" value="80"/>
+                  <par name="key_shift" value="64"/>
+                  <par_bool name="nrpn_receive" value="yes"/>
                   <MICROTONAL>
                     <string name="name">12tET</string>
                     <string name="comment">Equal Temperament 12 notes per octave</string>
-                    <par_bool value="no" name="invert_up_down"/>
-                    <par value="60" name="invert_up_down_center"/>
-                    <par_bool value="no" name="enabled"/>
-                    <par value="64" name="global_fine_detune"/>
-                    <par value="69" name="a_note"/>
-                    <par_real value="440.000000" name="a_freq"/>
+                    <par_bool name="invert_up_down" value="no"/>
+                    <par name="invert_up_down_center" value="60"/>
+                    <par_bool name="enabled" value="no"/>
+                    <par name="global_fine_detune" value="64"/>
+                    <par name="a_note" value="69"/>
+                    <par_real name="a_freq" value="440.000000"/>
                   </MICROTONAL>
                   <PART id="0">
-                    <par_bool value="yes" name="enabled"/>
-                    <par value="96" name="volume"/>
-                    <par value="64" name="panning"/>
-                    <par value="0" name="min_key"/>
-                    <par value="127" name="max_key"/>
-                    <par value="64" name="key_shift"/>
-                    <par value="0" name="rcv_chn"/>
-                    <par value="64" name="velocity_sensing"/>
-                    <par value="64" name="velocity_offset"/>
-                    <par_bool value="yes" name="note_on"/>
-                    <par_bool value="yes" name="poly_mode"/>
-                    <par value="0" name="legato_mode"/>
-                    <par value="15" name="key_limit"/>
+                    <par_bool name="enabled" value="yes"/>
+                    <par name="volume" value="96"/>
+                    <par name="panning" value="64"/>
+                    <par name="min_key" value="0"/>
+                    <par name="max_key" value="127"/>
+                    <par name="key_shift" value="64"/>
+                    <par name="rcv_chn" value="0"/>
+                    <par name="velocity_sensing" value="64"/>
+                    <par name="velocity_offset" value="64"/>
+                    <par_bool name="note_on" value="yes"/>
+                    <par_bool name="poly_mode" value="yes"/>
+                    <par name="legato_mode" value="0"/>
+                    <par name="key_limit" value="15"/>
                     <INSTRUMENT>
                       <INFO>
                         <string name="name">Smooth Saw</string>
                         <string name="author">Will J Godfrey
 GPL V 2 or later</string>
                         <string name="comments"/>
-                        <par value="13" name="type"/>
+                        <par name="type" value="13"/>
                       </INFO>
                       <INSTRUMENT_KIT>
-                        <par value="0" name="kit_mode"/>
-                        <par_bool value="no" name="drum_mode"/>
+                        <par name="kit_mode" value="0"/>
+                        <par_bool name="drum_mode" value="no"/>
                         <INSTRUMENT_KIT_ITEM id="0">
-                          <par_bool value="yes" name="enabled"/>
+                          <par_bool name="enabled" value="yes"/>
                           <string name="name"/>
-                          <par_bool value="no" name="muted"/>
-                          <par value="0" name="min_key"/>
-                          <par value="127" name="max_key"/>
-                          <par value="0" name="send_to_instrument_effect"/>
-                          <par_bool value="no" name="add_enabled"/>
-                          <par_bool value="no" name="sub_enabled"/>
-                          <par_bool value="yes" name="pad_enabled"/>
+                          <par_bool name="muted" value="no"/>
+                          <par name="min_key" value="0"/>
+                          <par name="max_key" value="127"/>
+                          <par name="send_to_instrument_effect" value="0"/>
+                          <par_bool name="add_enabled" value="no"/>
+                          <par_bool name="sub_enabled" value="no"/>
+                          <par_bool name="pad_enabled" value="yes"/>
                           <PAD_SYNTH_PARAMETERS>
-                            <par_bool value="yes" name="stereo"/>
-                            <par value="0" name="mode"/>
-                            <par value="499" name="bandwidth"/>
-                            <par value="0" name="bandwidth_scale"/>
+                            <par_bool name="stereo" value="yes"/>
+                            <par name="mode" value="0"/>
+                            <par name="bandwidth" value="499"/>
+                            <par name="bandwidth_scale" value="0"/>
                             <HARMONIC_PROFILE>
-                              <par value="0" name="base_type"/>
-                              <par value="91" name="base_par1"/>
-                              <par value="114" name="frequency_multiplier"/>
-                              <par value="0" name="modulator_par1"/>
-                              <par value="30" name="modulator_frequency"/>
-                              <par value="127" name="width"/>
-                              <par value="0" name="amplitude_multiplier_type"/>
-                              <par value="0" name="amplitude_multiplier_mode"/>
-                              <par value="81" name="amplitude_multiplier_par1"/>
-                              <par value="65" name="amplitude_multiplier_par2"/>
-                              <par_bool value="yes" name="autoscale"/>
-                              <par value="0" name="one_half"/>
+                              <par name="base_type" value="0"/>
+                              <par name="base_par1" value="91"/>
+                              <par name="frequency_multiplier" value="114"/>
+                              <par name="modulator_par1" value="0"/>
+                              <par name="modulator_frequency" value="30"/>
+                              <par name="width" value="127"/>
+                              <par name="amplitude_multiplier_type" value="0"/>
+                              <par name="amplitude_multiplier_mode" value="0"/>
+                              <par name="amplitude_multiplier_par1" value="81"/>
+                              <par name="amplitude_multiplier_par2" value="65"/>
+                              <par_bool name="autoscale" value="yes"/>
+                              <par name="one_half" value="0"/>
                             </HARMONIC_PROFILE>
                             <OSCIL>
-                              <par value="0" name="harmonic_mag_type"/>
-                              <par value="4" name="base_function"/>
-                              <par value="64" name="base_function_par"/>
-                              <par value="0" name="base_function_modulation"/>
-                              <par value="64" name="base_function_modulation_par1"/>
-                              <par value="64" name="base_function_modulation_par2"/>
-                              <par value="32" name="base_function_modulation_par3"/>
-                              <par value="0" name="modulation"/>
-                              <par value="64" name="modulation_par1"/>
-                              <par value="64" name="modulation_par2"/>
-                              <par value="32" name="modulation_par3"/>
-                              <par value="64" name="wave_shaping"/>
-                              <par value="1" name="wave_shaping_function"/>
-                              <par value="0" name="filter_type"/>
-                              <par value="64" name="filter_par1"/>
-                              <par value="64" name="filter_par2"/>
-                              <par value="0" name="filter_before_wave_shaping"/>
-                              <par value="0" name="spectrum_adjust_type"/>
-                              <par value="64" name="spectrum_adjust_par"/>
-                              <par value="127" name="rand"/>
-                              <par value="0" name="amp_rand_type"/>
-                              <par value="64" name="amp_rand_power"/>
-                              <par value="0" name="harmonic_shift"/>
-                              <par_bool value="no" name="harmonic_shift_first"/>
-                              <par value="0" name="adaptive_harmonics"/>
-                              <par value="128" name="adaptive_harmonics_base_frequency"/>
-                              <par value="100" name="adaptive_harmonics_power"/>
+                              <par name="harmonic_mag_type" value="0"/>
+                              <par name="base_function" value="4"/>
+                              <par name="base_function_par" value="64"/>
+                              <par name="base_function_modulation" value="0"/>
+                              <par name="base_function_modulation_par1" value="64"/>
+                              <par name="base_function_modulation_par2" value="64"/>
+                              <par name="base_function_modulation_par3" value="32"/>
+                              <par name="modulation" value="0"/>
+                              <par name="modulation_par1" value="64"/>
+                              <par name="modulation_par2" value="64"/>
+                              <par name="modulation_par3" value="32"/>
+                              <par name="wave_shaping" value="64"/>
+                              <par name="wave_shaping_function" value="1"/>
+                              <par name="filter_type" value="0"/>
+                              <par name="filter_par1" value="64"/>
+                              <par name="filter_par2" value="64"/>
+                              <par name="filter_before_wave_shaping" value="0"/>
+                              <par name="spectrum_adjust_type" value="0"/>
+                              <par name="spectrum_adjust_par" value="64"/>
+                              <par name="rand" value="127"/>
+                              <par name="amp_rand_type" value="0"/>
+                              <par name="amp_rand_power" value="64"/>
+                              <par name="harmonic_shift" value="0"/>
+                              <par_bool name="harmonic_shift_first" value="no"/>
+                              <par name="adaptive_harmonics" value="0"/>
+                              <par name="adaptive_harmonics_base_frequency" value="128"/>
+                              <par name="adaptive_harmonics_power" value="100"/>
                               <HARMONICS>
                                 <HARMONIC id="1">
-                                  <par value="127" name="mag"/>
-                                  <par value="64" name="phase"/>
+                                  <par name="mag" value="127"/>
+                                  <par name="phase" value="64"/>
                                 </HARMONIC>
                               </HARMONICS>
                             </OSCIL>
                             <RESONANCE>
-                              <par_bool value="no" name="enabled"/>
+                              <par_bool name="enabled" value="no"/>
                             </RESONANCE>
                             <HARMONIC_POSITION>
-                              <par value="0" name="type"/>
-                              <par value="65" name="parameter1"/>
-                              <par value="65" name="parameter2"/>
-                              <par value="0" name="parameter3"/>
+                              <par name="type" value="0"/>
+                              <par name="parameter1" value="65"/>
+                              <par name="parameter2" value="65"/>
+                              <par name="parameter3" value="0"/>
                             </HARMONIC_POSITION>
                             <SAMPLE_QUALITY>
-                              <par value="3" name="samplesize"/>
-                              <par value="4" name="basenote"/>
-                              <par value="3" name="octaves"/>
-                              <par value="2" name="samples_per_octave"/>
+                              <par name="samplesize" value="3"/>
+                              <par name="basenote" value="4"/>
+                              <par name="octaves" value="3"/>
+                              <par name="samples_per_octave" value="2"/>
                             </SAMPLE_QUALITY>
                             <AMPLITUDE_PARAMETERS>
-                              <par value="90" name="volume"/>
-                              <par value="64" name="panning"/>
-                              <par value="64" name="velocity_sensing"/>
-                              <par value="0" name="punch_strength"/>
-                              <par value="60" name="punch_time"/>
-                              <par value="64" name="punch_stretch"/>
-                              <par value="72" name="punch_velocity_sensing"/>
+                              <par name="volume" value="90"/>
+                              <par name="panning" value="64"/>
+                              <par name="velocity_sensing" value="64"/>
+                              <par name="punch_strength" value="0"/>
+                              <par name="punch_time" value="60"/>
+                              <par name="punch_stretch" value="64"/>
+                              <par name="punch_velocity_sensing" value="72"/>
                               <AMPLITUDE_ENVELOPE>
-                                <par_bool value="no" name="free_mode"/>
-                                <par value="4" name="env_points"/>
-                                <par value="2" name="env_sustain"/>
-                                <par value="64" name="env_stretch"/>
-                                <par_bool value="yes" name="forced_release"/>
-                                <par_bool value="no" name="linear_envelope"/>
-                                <par value="16" name="A_dt"/>
-                                <par value="40" name="D_dt"/>
-                                <par value="78" name="R_dt"/>
-                                <par value="64" name="A_val"/>
-                                <par value="64" name="D_val"/>
-                                <par value="127" name="S_val"/>
-                                <par value="64" name="R_val"/>
+                                <par_bool name="free_mode" value="no"/>
+                                <par name="env_points" value="4"/>
+                                <par name="env_sustain" value="2"/>
+                                <par name="env_stretch" value="64"/>
+                                <par_bool name="forced_release" value="yes"/>
+                                <par_bool name="linear_envelope" value="no"/>
+                                <par name="A_dt" value="16"/>
+                                <par name="D_dt" value="40"/>
+                                <par name="R_dt" value="78"/>
+                                <par name="A_val" value="64"/>
+                                <par name="D_val" value="64"/>
+                                <par name="S_val" value="127"/>
+                                <par name="R_val" value="64"/>
                               </AMPLITUDE_ENVELOPE>
                               <AMPLITUDE_LFO>
-                                <par_real value="0.630000" name="freq"/>
-                                <par value="0" name="intensity"/>
-                                <par value="64" name="start_phase"/>
-                                <par value="0" name="lfo_type"/>
-                                <par value="0" name="randomness_amplitude"/>
-                                <par value="0" name="randomness_frequency"/>
-                                <par value="0" name="delay"/>
-                                <par value="64" name="stretch"/>
-                                <par_bool value="no" name="continous"/>
+                                <par_real name="freq" value="0.630000"/>
+                                <par name="intensity" value="0"/>
+                                <par name="start_phase" value="64"/>
+                                <par name="lfo_type" value="0"/>
+                                <par name="randomness_amplitude" value="0"/>
+                                <par name="randomness_frequency" value="0"/>
+                                <par name="delay" value="0"/>
+                                <par name="stretch" value="64"/>
+                                <par_bool name="continous" value="no"/>
                               </AMPLITUDE_LFO>
                             </AMPLITUDE_PARAMETERS>
                             <FREQUENCY_PARAMETERS>
-                              <par value="0" name="fixed_freq"/>
-                              <par value="0" name="fixed_freq_et"/>
-                              <par value="8192" name="detune"/>
-                              <par value="0" name="coarse_detune"/>
-                              <par value="1" name="detune_type"/>
+                              <par name="fixed_freq" value="0"/>
+                              <par name="fixed_freq_et" value="0"/>
+                              <par name="detune" value="8192"/>
+                              <par name="coarse_detune" value="0"/>
+                              <par name="detune_type" value="1"/>
                               <FREQUENCY_ENVELOPE>
-                                <par_bool value="no" name="free_mode"/>
-                                <par value="3" name="env_points"/>
-                                <par value="1" name="env_sustain"/>
-                                <par value="0" name="env_stretch"/>
-                                <par_bool value="no" name="forced_release"/>
-                                <par_bool value="no" name="linear_envelope"/>
-                                <par value="50" name="A_dt"/>
-                                <par value="10" name="D_dt"/>
-                                <par value="60" name="R_dt"/>
-                                <par value="64" name="A_val"/>
-                                <par value="64" name="D_val"/>
-                                <par value="64" name="S_val"/>
-                                <par value="64" name="R_val"/>
+                                <par_bool name="free_mode" value="no"/>
+                                <par name="env_points" value="3"/>
+                                <par name="env_sustain" value="1"/>
+                                <par name="env_stretch" value="0"/>
+                                <par_bool name="forced_release" value="no"/>
+                                <par_bool name="linear_envelope" value="no"/>
+                                <par name="A_dt" value="50"/>
+                                <par name="D_dt" value="10"/>
+                                <par name="R_dt" value="60"/>
+                                <par name="A_val" value="64"/>
+                                <par name="D_val" value="64"/>
+                                <par name="S_val" value="64"/>
+                                <par name="R_val" value="64"/>
                               </FREQUENCY_ENVELOPE>
                               <FREQUENCY_LFO>
-                                <par_real value="0.571000" name="freq"/>
-                                <par value="17" name="intensity"/>
-                                <par value="64" name="start_phase"/>
-                                <par value="0" name="lfo_type"/>
-                                <par value="0" name="randomness_amplitude"/>
-                                <par value="0" name="randomness_frequency"/>
-                                <par value="0" name="delay"/>
-                                <par value="64" name="stretch"/>
-                                <par_bool value="no" name="continous"/>
+                                <par_real name="freq" value="0.571000"/>
+                                <par name="intensity" value="17"/>
+                                <par name="start_phase" value="64"/>
+                                <par name="lfo_type" value="0"/>
+                                <par name="randomness_amplitude" value="0"/>
+                                <par name="randomness_frequency" value="0"/>
+                                <par name="delay" value="0"/>
+                                <par name="stretch" value="64"/>
+                                <par_bool name="continous" value="no"/>
                               </FREQUENCY_LFO>
                             </FREQUENCY_PARAMETERS>
                             <FILTER_PARAMETERS>
-                              <par value="64" name="velocity_sensing_amplitude"/>
-                              <par value="64" name="velocity_sensing"/>
+                              <par name="velocity_sensing_amplitude" value="64"/>
+                              <par name="velocity_sensing" value="64"/>
                               <FILTER>
-                                <par value="0" name="category"/>
-                                <par value="0" name="type"/>
-                                <par value="86" name="freq"/>
-                                <par value="50" name="q"/>
-                                <par value="0" name="stages"/>
-                                <par value="64" name="freq_track"/>
-                                <par value="64" name="gain"/>
+                                <par name="category" value="0"/>
+                                <par name="type" value="0"/>
+                                <par name="freq" value="86"/>
+                                <par name="q" value="50"/>
+                                <par name="stages" value="0"/>
+                                <par name="freq_track" value="64"/>
+                                <par name="gain" value="64"/>
                               </FILTER>
                               <FILTER_ENVELOPE>
-                                <par_bool value="no" name="free_mode"/>
-                                <par value="4" name="env_points"/>
-                                <par value="2" name="env_sustain"/>
-                                <par value="0" name="env_stretch"/>
-                                <par_bool value="yes" name="forced_release"/>
-                                <par_bool value="no" name="linear_envelope"/>
-                                <par value="40" name="A_dt"/>
-                                <par value="70" name="D_dt"/>
-                                <par value="60" name="R_dt"/>
-                                <par value="64" name="A_val"/>
-                                <par value="64" name="D_val"/>
-                                <par value="64" name="S_val"/>
-                                <par value="64" name="R_val"/>
+                                <par_bool name="free_mode" value="no"/>
+                                <par name="env_points" value="4"/>
+                                <par name="env_sustain" value="2"/>
+                                <par name="env_stretch" value="0"/>
+                                <par_bool name="forced_release" value="yes"/>
+                                <par_bool name="linear_envelope" value="no"/>
+                                <par name="A_dt" value="40"/>
+                                <par name="D_dt" value="70"/>
+                                <par name="R_dt" value="60"/>
+                                <par name="A_val" value="64"/>
+                                <par name="D_val" value="64"/>
+                                <par name="S_val" value="64"/>
+                                <par name="R_val" value="64"/>
                               </FILTER_ENVELOPE>
                               <FILTER_LFO>
-                                <par_real value="0.630000" name="freq"/>
-                                <par value="0" name="intensity"/>
-                                <par value="64" name="start_phase"/>
-                                <par value="0" name="lfo_type"/>
-                                <par value="0" name="randomness_amplitude"/>
-                                <par value="0" name="randomness_frequency"/>
-                                <par value="0" name="delay"/>
-                                <par value="64" name="stretch"/>
-                                <par_bool value="no" name="continous"/>
+                                <par_real name="freq" value="0.630000"/>
+                                <par name="intensity" value="0"/>
+                                <par name="start_phase" value="64"/>
+                                <par name="lfo_type" value="0"/>
+                                <par name="randomness_amplitude" value="0"/>
+                                <par name="randomness_frequency" value="0"/>
+                                <par name="delay" value="0"/>
+                                <par name="stretch" value="64"/>
+                                <par_bool name="continous" value="no"/>
                               </FILTER_LFO>
                             </FILTER_PARAMETERS>
                           </PAD_SYNTH_PARAMETERS>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="1">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="2">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="3">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="4">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="5">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="6">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="7">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="8">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="9">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="10">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="11">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="12">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="13">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="14">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                         <INSTRUMENT_KIT_ITEM id="15">
-                          <par_bool value="no" name="enabled"/>
+                          <par_bool name="enabled" value="no"/>
                         </INSTRUMENT_KIT_ITEM>
                       </INSTRUMENT_KIT>
                       <INSTRUMENT_EFFECTS>
                         <INSTRUMENT_EFFECT id="0">
                           <EFFECT>
-                            <par value="3" name="type"/>
-                            <par value="0" name="preset"/>
+                            <par name="type" value="3"/>
+                            <par name="preset" value="0"/>
                             <EFFECT_PARAMETERS>
                               <par_no id="0">
-                                <par value="64" name="par"/>
+                                <par name="par" value="64"/>
                               </par_no>
                               <par_no id="1">
-                                <par value="64" name="par"/>
+                                <par name="par" value="64"/>
                               </par_no>
                               <par_no id="2">
-                                <par value="50" name="par"/>
+                                <par name="par" value="50"/>
                               </par_no>
                               <par_no id="5">
-                                <par value="90" name="par"/>
+                                <par name="par" value="90"/>
                               </par_no>
                               <par_no id="6">
-                                <par value="40" name="par"/>
+                                <par name="par" value="40"/>
                               </par_no>
                               <par_no id="7">
-                                <par value="85" name="par"/>
+                                <par name="par" value="85"/>
                               </par_no>
                               <par_no id="8">
-                                <par value="64" name="par"/>
+                                <par name="par" value="64"/>
                               </par_no>
                               <par_no id="9">
-                                <par value="119" name="par"/>
+                                <par name="par" value="119"/>
                               </par_no>
                             </EFFECT_PARAMETERS>
                           </EFFECT>
-                          <par value="0" name="route"/>
-                          <par_bool value="no" name="bypass"/>
+                          <par name="route" value="0"/>
+                          <par_bool name="bypass" value="no"/>
                         </INSTRUMENT_EFFECT>
                         <INSTRUMENT_EFFECT id="1">
                           <EFFECT>
-                            <par value="1" name="type"/>
-                            <par value="0" name="preset"/>
+                            <par name="type" value="1"/>
+                            <par name="preset" value="0"/>
                             <EFFECT_PARAMETERS>
                               <par_no id="0">
-                                <par value="40" name="par"/>
+                                <par name="par" value="40"/>
                               </par_no>
                               <par_no id="1">
-                                <par value="64" name="par"/>
+                                <par name="par" value="64"/>
                               </par_no>
                               <par_no id="2">
-                                <par value="63" name="par"/>
+                                <par name="par" value="63"/>
                               </par_no>
                               <par_no id="3">
-                                <par value="24" name="par"/>
+                                <par name="par" value="24"/>
                               </par_no>
                               <par_no id="7">
-                                <par value="85" name="par"/>
+                                <par name="par" value="85"/>
                               </par_no>
                               <par_no id="8">
-                                <par value="5" name="par"/>
+                                <par name="par" value="5"/>
                               </par_no>
                               <par_no id="9">
-                                <par value="92" name="par"/>
+                                <par name="par" value="92"/>
                               </par_no>
                               <par_no id="10">
-                                <par value="1" name="par"/>
+                                <par name="par" value="1"/>
                               </par_no>
                               <par_no id="11">
-                                <par value="64" name="par"/>
+                                <par name="par" value="64"/>
                               </par_no>
                               <par_no id="12">
-                                <par value="20" name="par"/>
+                                <par name="par" value="20"/>
                               </par_no>
                             </EFFECT_PARAMETERS>
                           </EFFECT>
-                          <par value="0" name="route"/>
-                          <par_bool value="no" name="bypass"/>
+                          <par name="route" value="0"/>
+                          <par_bool name="bypass" value="no"/>
                         </INSTRUMENT_EFFECT>
                         <INSTRUMENT_EFFECT id="2">
                           <EFFECT>
-                            <par value="0" name="type"/>
+                            <par name="type" value="0"/>
                           </EFFECT>
-                          <par value="0" name="route"/>
-                          <par_bool value="no" name="bypass"/>
+                          <par name="route" value="0"/>
+                          <par_bool name="bypass" value="no"/>
                         </INSTRUMENT_EFFECT>
                       </INSTRUMENT_EFFECTS>
                     </INSTRUMENT>
                     <CONTROLLER>
-                      <par value="100" name="pitchwheel_bendrange"/>
-                      <par_bool value="yes" name="expression_receive"/>
-                      <par value="64" name="panning_depth"/>
-                      <par value="64" name="filter_cutoff_depth"/>
-                      <par value="64" name="filter_q_depth"/>
-                      <par value="64" name="bandwidth_depth"/>
-                      <par value="80" name="mod_wheel_depth"/>
-                      <par_bool value="no" name="mod_wheel_exponential"/>
-                      <par_bool value="yes" name="fm_amp_receive"/>
-                      <par_bool value="yes" name="volume_receive"/>
-                      <par_bool value="yes" name="sustain_receive"/>
-                      <par_bool value="yes" name="portamento_receive"/>
-                      <par value="64" name="portamento_time"/>
-                      <par value="3" name="portamento_pitchthresh"/>
-                      <par value="1" name="portamento_pitchthreshtype"/>
-                      <par value="0" name="portamento_portamento"/>
-                      <par value="64" name="portamento_updowntimestretch"/>
-                      <par value="0" name="portamento_proportional"/>
-                      <par value="80" name="portamento_proprate"/>
-                      <par value="90" name="portamento_propdepth"/>
-                      <par value="64" name="resonance_center_depth"/>
-                      <par value="64" name="resonance_bandwidth_depth"/>
+                      <par name="pitchwheel_bendrange" value="100"/>
+                      <par_bool name="expression_receive" value="yes"/>
+                      <par name="panning_depth" value="64"/>
+                      <par name="filter_cutoff_depth" value="64"/>
+                      <par name="filter_q_depth" value="64"/>
+                      <par name="bandwidth_depth" value="64"/>
+                      <par name="mod_wheel_depth" value="80"/>
+                      <par_bool name="mod_wheel_exponential" value="no"/>
+                      <par_bool name="fm_amp_receive" value="yes"/>
+                      <par_bool name="volume_receive" value="yes"/>
+                      <par_bool name="sustain_receive" value="yes"/>
+                      <par_bool name="portamento_receive" value="yes"/>
+                      <par name="portamento_time" value="64"/>
+                      <par name="portamento_pitchthresh" value="3"/>
+                      <par name="portamento_pitchthreshtype" value="1"/>
+                      <par name="portamento_portamento" value="0"/>
+                      <par name="portamento_updowntimestretch" value="64"/>
+                      <par name="portamento_proportional" value="0"/>
+                      <par name="portamento_proprate" value="80"/>
+                      <par name="portamento_propdepth" value="90"/>
+                      <par name="resonance_center_depth" value="64"/>
+                      <par name="resonance_bandwidth_depth" value="64"/>
                     </CONTROLLER>
                   </PART>
                   <PART id="1">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="2">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="3">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="4">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="5">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="6">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="7">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="8">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="9">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="10">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="11">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="12">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="13">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="14">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <PART id="15">
-                    <par_bool value="no" name="enabled"/>
+                    <par_bool name="enabled" value="no"/>
                   </PART>
                   <SYSTEM_EFFECTS>
                     <SYSTEM_EFFECT id="0">
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                       <VOLUME id="0">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="1">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="2">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="3">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="4">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="5">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="6">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="7">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="8">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="9">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="10">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="11">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="12">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="13">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="14">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="15">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <SENDTO id="1">
-                        <par value="0" name="send_vol"/>
+                        <par name="send_vol" value="0"/>
                       </SENDTO>
                       <SENDTO id="2">
-                        <par value="0" name="send_vol"/>
+                        <par name="send_vol" value="0"/>
                       </SENDTO>
                       <SENDTO id="3">
-                        <par value="0" name="send_vol"/>
+                        <par name="send_vol" value="0"/>
                       </SENDTO>
                     </SYSTEM_EFFECT>
                     <SYSTEM_EFFECT id="1">
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                       <VOLUME id="0">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="1">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="2">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="3">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="4">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="5">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="6">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="7">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="8">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="9">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="10">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="11">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="12">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="13">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="14">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="15">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <SENDTO id="2">
-                        <par value="0" name="send_vol"/>
+                        <par name="send_vol" value="0"/>
                       </SENDTO>
                       <SENDTO id="3">
-                        <par value="0" name="send_vol"/>
+                        <par name="send_vol" value="0"/>
                       </SENDTO>
                     </SYSTEM_EFFECT>
                     <SYSTEM_EFFECT id="2">
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                       <VOLUME id="0">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="1">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="2">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="3">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="4">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="5">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="6">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="7">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="8">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="9">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="10">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="11">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="12">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="13">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="14">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="15">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <SENDTO id="3">
-                        <par value="0" name="send_vol"/>
+                        <par name="send_vol" value="0"/>
                       </SENDTO>
                     </SYSTEM_EFFECT>
                     <SYSTEM_EFFECT id="3">
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                       <VOLUME id="0">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="1">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="2">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="3">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="4">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="5">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="6">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="7">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="8">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="9">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="10">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="11">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="12">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="13">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="14">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                       <VOLUME id="15">
-                        <par value="0" name="vol"/>
+                        <par name="vol" value="0"/>
                       </VOLUME>
                     </SYSTEM_EFFECT>
                   </SYSTEM_EFFECTS>
                   <INSERTION_EFFECTS>
                     <INSERTION_EFFECT id="0">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                     <INSERTION_EFFECT id="1">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                     <INSERTION_EFFECT id="2">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                     <INSERTION_EFFECT id="3">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                     <INSERTION_EFFECT id="4">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                     <INSERTION_EFFECT id="5">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                     <INSERTION_EFFECT id="6">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                     <INSERTION_EFFECT id="7">
-                      <par value="-1" name="part"/>
+                      <par name="part" value="-1"/>
                       <EFFECT>
-                        <par value="0" name="type"/>
+                        <par name="type" value="0"/>
                       </EFFECT>
                     </INSERTION_EFFECT>
                   </INSERTION_EFFECTS>
@@ -767,24 +766,24 @@ GPL V 2 or later</string>
               </ZynAddSubFX-data>
             </zynaddsubfx>
           </instrument>
-          <eldata fwet="0" fres="0.5" ftype="0" fcut="14000">
-            <elvol amt="0" lspd="0.1" pdel="0" sustain="0.5" hold="0.5" lspd_numerator="4" lpdel="0" latt="0" lamt="0" rel="0.1" lshp="0" ctlenvamt="0" dec="0.5" lspd_denominator="4" x100="0" lspd_syncmode="0" att="0" userwavefile=""/>
-            <elcut amt="0" lspd="0.1" pdel="0" sustain="0.5" hold="0.5" lspd_numerator="4" lpdel="0" latt="0" lamt="0" rel="0.1" lshp="0" ctlenvamt="0" dec="0.5" lspd_denominator="4" x100="0" lspd_syncmode="0" att="0" userwavefile=""/>
-            <elres amt="0" lspd="0.1" pdel="0" sustain="0.5" hold="0.5" lspd_numerator="4" lpdel="0" latt="0" lamt="0" rel="0.1" lshp="0" ctlenvamt="0" dec="0.5" lspd_denominator="4" x100="0" lspd_syncmode="0" att="0" userwavefile=""/>
+          <eldata fcut="14000" fres="0.5" ftype="0" fwet="0">
+            <elvol amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+            <elcut amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+            <elres amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
           </eldata>
-          <chordcreator chordrange="1" chord="0" chord-enabled="0"/>
-          <arpeggiator arpcycle="0" arpskip="0" arptime="200" arpgate="100" arprange="1" arp-enabled="0" arptime_denominator="4" arpdir="0" arptime_syncmode="0" arpmiss="0" arpmode="0" arp="0" arptime_numerator="4"/>
-          <midiport readable="1" outputcontroller="0" fixedinputvelocity="-1" writable="0" outputchannel="1" inputcontroller="0" outputprogram="1" basevelocity="63" inports="14:0 Midi Through:Midi Through Port-0" fixedoutputvelocity="-1" inputchannel="0" fixedoutputnote="-1"/>
-          <fxchain numofeffects="3" enabled="1">
-            <effect on="1" wet="1" autoquit_denominator="4" autoquit="1" gate="0" autoquit_numerator="4" name="reverbsc" autoquit_syncmode="0">
+          <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+          <arpeggiator arp="0" arp-enabled="0" arpcycle="0" arpdir="0" arpgate="100" arpmiss="0" arpmode="0" arprange="1" arpskip="0" arptime="200" arptime_denominator="4" arptime_numerator="4" arptime_syncmode="0"/>
+          <midiport basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" inports="14:0 Midi Through:Midi Through Port-0" inputchannel="0" inputcontroller="0" outputchannel="1" outputcontroller="0" outputprogram="1" readable="1" writable="0"/>
+          <fxchain enabled="1" numofeffects="3">
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="reverbsc" on="1" wet="1">
               <ReverbSCControls color="15000" input_gain="0" output_gain="0" size="0.88999999"/>
               <key/>
             </effect>
-            <effect on="1" wet="1" autoquit_denominator="4" autoquit="1" gate="0" autoquit_numerator="4" name="reverbsc" autoquit_syncmode="0">
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="reverbsc" on="1" wet="1">
               <ReverbSCControls color="10000" input_gain="0" output_gain="0" size="0.88999999"/>
               <key/>
             </effect>
-            <effect on="1" wet="0.22" autoquit_denominator="4" autoquit="1" gate="0" autoquit_numerator="4" name="ladspaeffect" autoquit_syncmode="0">
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="ladspaeffect" on="1" wet="0.22">
               <ladspacontrols ports="5">
                 <port00 data="1971.8999"/>
                 <port01 data="33"/>
@@ -793,36 +792,36 @@ GPL V 2 or later</string>
                 <port04 data="0.57749999"/>
               </ladspacontrols>
               <key>
-                <attribute value="vynil_1905" name="file"/>
-                <attribute value="vynil" name="plugin"/>
+                <attribute name="file" value="vynil_1905"/>
+                <attribute name="plugin" value="vynil"/>
               </key>
             </effect>
           </fxchain>
         </instrumenttrack>
       </track>
     </trackcontainer>
-    <track type="6" name="Automation track" muted="0" solo="0">
+    <track muted="0" name="Automation track" solo="0" type="6">
       <automationtrack/>
-      <automationpattern prog="0" mute="0" name="Numerator" pos="0" tens="1" len="192"/>
-      <automationpattern prog="0" mute="0" name="Denominator" pos="0" tens="1" len="192"/>
-      <automationpattern prog="0" mute="0" name="Tempo" pos="0" tens="1" len="192"/>
-      <automationpattern prog="0" mute="0" name="Master volume" pos="0" tens="1" len="192"/>
-      <automationpattern prog="0" mute="0" name="Master pitch" pos="0" tens="1" len="192"/>
+      <automationpattern len="192" mute="0" name="Numerator" pos="0" prog="0" tens="1"/>
+      <automationpattern len="192" mute="0" name="Denominator" pos="0" prog="0" tens="1"/>
+      <automationpattern len="192" mute="0" name="Tempo" pos="0" prog="0" tens="1"/>
+      <automationpattern len="192" mute="0" name="Master volume" pos="0" prog="0" tens="1"/>
+      <automationpattern len="192" mute="0" name="Master pitch" pos="0" prog="0" tens="1"/>
     </track>
-    <fxmixer y="310" visible="0" width="543" height="333" maximized="0" minimized="0" x="5">
-      <fxchannel num="0" name="Master" muted="0" volume="1" soloed="0">
-        <fxchain numofeffects="0" enabled="0"/>
+    <fxmixer height="333" maximized="0" minimized="0" visible="0" width="543" x="5" y="310">
+      <fxchannel muted="0" name="Master" num="0" soloed="0" volume="1">
+        <fxchain enabled="0" numofeffects="0"/>
       </fxchannel>
     </fxmixer>
-    <ControllerRackView y="310" visible="0" width="350" height="200" maximized="0" minimized="0" x="680"/>
-    <pianoroll y="5" visible="0" width="860" height="480" maximized="0" minimized="0" x="5"/>
-    <automationeditor y="1" visible="0" width="860" height="400" maximized="0" minimized="0" x="1"/>
-    <projectnotes y="10" visible="0" width="771" height="400" maximized="0" minimized="0" x="700"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
-<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+    <ControllerRackView height="200" maximized="0" minimized="0" visible="0" width="350" x="680" y="310"/>
+    <pianoroll height="480" maximized="0" minimized="0" visible="0" width="860" x="5" y="5"/>
+    <automationeditor height="400" maximized="0" minimized="0" visible="0" width="860" x="1" y="1"/>
+    <projectnotes height="400" maximized="0" minimized="0" visible="0" width="771" x="700" y="10">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;">
-<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>]]></projectnotes>
-    <timeline lpstate="0" lp1pos="192" lp0pos="0"/>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</projectnotes>
+    <timeline lp0pos="0" lp1pos="192" lpstate="0"/>
     <controllers/>
   </song>
 </lmms-project>
