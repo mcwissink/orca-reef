@@ -4,11 +4,11 @@
   <song>
     <trackcontainer height="300" maximized="0" minimized="0" type="song" visible="1" width="600" x="5" y="5">
       <track muted="0" name="Nescaline" solo="0" type="0">
-        <instrumenttrack basenote="45" fxch="0" pan="0" pitch="0" pitchrange="1" usemasterpitch="1" vol="64.800003">
+        <instrumenttrack basenote="45" fxch="0" pan="-27.200001" pitch="0" pitchrange="1" usemasterpitch="1" vol="64.800003">
           <instrument name="nes">
             <nes crs1="0" crs2="0" crs3="0" dc1="0" dc2="2" envlen1="0" envlen2="0" envlen4="0" envloop1="0" envloop2="0" envloop4="0" envon1="0" envon2="0" envon4="0" nfreq4="0" nfrqmode4="0" nmode4="0" nq4="1" nswp4="0" on1="0" on2="0" on3="1" on4="0" swamt1="0" swamt2="0" sweep1="0" sweep2="0" swrate1="0" swrate2="0" vibr="0" vol="1" vol1="15" vol2="15" vol3="15" vol4="15"/>
           </instrument>
-          <eldata fcut="9800" fres="0.5" ftype="0" fwet="1">
+          <eldata fcut="6776" fres="0.14" ftype="0" fwet="1">
             <elvol amt="0.83499998" att="0.016000001" ctlenvamt="0" dec="0.71600002" hold="0.112" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="1.108" sustain="0.324" userwavefile="" x100="0"/>
             <elcut amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
             <elres amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
@@ -38,7 +38,7 @@
         </instrumenttrack>
       </track>
       <track muted="0" name="Smooth Saw" solo="0" type="0">
-        <instrumenttrack basenote="45" fxch="0" pan="0" pitch="0" pitchrange="1" usemasterpitch="1" vol="34.400002">
+        <instrumenttrack basenote="45" fxch="0" pan="44.799999" pitch="0" pitchrange="1" usemasterpitch="1" vol="34.400002">
           <instrument name="zynaddsubfx">
             <zynaddsubfx bandwidth="64" filterfreq="27" filterq="64" fmgain="127" forwardmidicc="1" modifiedcontrollers="74," portamento="0" resbandwidth="64" rescenterfreq="64">
               <ZynAddSubFX-data ZynAddSubFX-author="Nasca Octavian Paul" version-major="2" version-minor="4" version-revision="1">
@@ -810,7 +810,33 @@ GPL V 2 or later</string>
     </track>
     <fxmixer height="333" maximized="0" minimized="0" visible="0" width="543" x="5" y="310">
       <fxchannel muted="0" name="Master" num="0" soloed="0" volume="1">
-        <fxchain enabled="0" numofeffects="0"/>
+        <fxchain enabled="1" numofeffects="2">
+          <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="ladspaeffect" on="1" wet="1">
+            <ladspacontrols link="1" ports="6">
+              <port00 data="1" link="1"/>
+              <port01 data="0" link="1"/>
+              <port02 data="0" link="1"/>
+              <port10 data="1"/>
+              <port11 data="0"/>
+              <port12 data="0"/>
+            </ladspacontrols>
+            <key>
+              <attribute name="file" value="caps"/>
+              <attribute name="plugin" value="Saturate"/>
+            </key>
+          </effect>
+          <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="ladspaeffect" on="1" wet="1">
+            <ladspacontrols ports="3">
+              <port00 data="0"/>
+              <port01 data="0"/>
+              <port02 data="507.5" data_denominator="4" data_numerator="4" data_syncmode="0"/>
+            </ladspacontrols>
+            <key>
+              <attribute name="file" value="fast_lookahead_limiter_1913"/>
+              <attribute name="plugin" value="fastLookaheadLimiter"/>
+            </key>
+          </effect>
+        </fxchain>
       </fxchannel>
     </fxmixer>
     <ControllerRackView height="200" maximized="0" minimized="0" visible="0" width="350" x="680" y="310"/>
