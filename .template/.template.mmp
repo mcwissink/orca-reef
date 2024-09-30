@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<lmms-project creator="LMMS" creatorversion="1.2.2" type="song" version="1.0">
+  <head bpm="140" masterpitch="0" mastervol="100" timesig_denominator="4" timesig_numerator="4"/>
+  <song>
+    <trackcontainer height="300" maximized="0" minimized="0" type="song" visible="1" width="600" x="5" y="5">
+      <track muted="0" name="Nescaline" solo="0" type="0">
+        <instrumenttrack basenote="45" fxch="0" pan="0" pitch="0" pitchrange="1" usemasterpitch="1" vol="64.800003">
+          <instrument name="nes">
+            <nes crs1="0" crs2="0" crs3="0" dc1="0" dc2="2" envlen1="0" envlen2="0" envlen4="0" envloop1="0" envloop2="0" envloop4="0" envon1="0" envon2="0" envon4="0" nfreq4="0" nfrqmode4="0" nmode4="0" nq4="1" nswp4="0" on1="0" on2="0" on3="1" on4="0" swamt1="0" swamt2="0" sweep1="0" sweep2="0" swrate1="0" swrate2="0" vibr="0" vol="1" vol1="15" vol2="15" vol3="15" vol4="15"/>
+          </instrument>
+          <eldata fcut="896" fres="2.74" ftype="0" fwet="1">
+            <elvol amt="0.83499998" att="0.016000001" ctlenvamt="0" dec="0.71600002" hold="0.112" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="1.108" sustain="0.324" userwavefile="" x100="0"/>
+            <elcut amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+            <elres amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+          </eldata>
+          <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+          <arpeggiator arp="0" arp-enabled="0" arpcycle="0" arpdir="0" arpgate="100" arpmiss="0" arpmode="0" arprange="1" arpskip="0" arptime="200" arptime_denominator="4" arptime_numerator="4" arptime_syncmode="0"/>
+          <midiport basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" inports="14:0 Midi Through:Midi Through Port-0" inputchannel="1" inputcontroller="0" outputchannel="1" outputcontroller="0" outputprogram="1" readable="1" writable="0"/>
+          <fxchain enabled="1" numofeffects="1">
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="reverbsc" on="1" wet="0.41999999">
+              <ReverbSCControls color="15000" input_gain="0" output_gain="0" size="0.85999995"/>
+              <key/>
+            </effect>
+          </fxchain>
+        </instrumenttrack>
+      </track>
+    </trackcontainer>
+    <track muted="0" name="Automation track" solo="0" type="6">
+      <automationtrack/>
+      <automationpattern len="192" mute="0" name="Numerator" pos="0" prog="0" tens="1"/>
+      <automationpattern len="192" mute="0" name="Denominator" pos="0" prog="0" tens="1"/>
+      <automationpattern len="192" mute="0" name="Tempo" pos="0" prog="0" tens="1"/>
+      <automationpattern len="192" mute="0" name="Master volume" pos="0" prog="0" tens="1"/>
+      <automationpattern len="192" mute="0" name="Master pitch" pos="0" prog="0" tens="1"/>
+    </track>
+    <fxmixer height="333" maximized="0" minimized="0" visible="0" width="543" x="5" y="310">
+      <fxchannel muted="0" name="Master" num="0" soloed="0" volume="1">
+        <fxchain enabled="0" numofeffects="0"/>
+      </fxchannel>
+    </fxmixer>
+    <ControllerRackView height="200" maximized="0" minimized="0" visible="0" width="350" x="680" y="310"/>
+    <pianoroll height="480" maximized="0" minimized="0" visible="0" width="860" x="5" y="5"/>
+    <automationeditor height="400" maximized="0" minimized="0" visible="0" width="860" x="1" y="1"/>
+    <projectnotes height="400" maximized="0" minimized="0" visible="0" width="771" x="700" y="10">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</projectnotes>
+    <timeline lp0pos="0" lp1pos="192" lpstate="0"/>
+    <controllers/>
+  </song>
+</lmms-project>
