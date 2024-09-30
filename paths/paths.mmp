@@ -942,7 +942,7 @@ and disappears on high notes. </string>
         </instrumenttrack>
       </track>
       <track muted="0" name="Soft Choir" solo="0" type="0">
-        <instrumenttrack basenote="45" fxch="0" pan="-50" pitch="0" pitchrange="1" usemasterpitch="1" vol="128">
+        <instrumenttrack basenote="45" fxch="0" pan="-48" pitch="0" pitchrange="1" usemasterpitch="1" vol="128">
           <instrument name="zynaddsubfx">
             <zynaddsubfx bandwidth="64" filterfreq="64" filterq="64" fmgain="127" forwardmidicc="1" modifiedcontrollers="" portamento="0" resbandwidth="64" rescenterfreq="64">
               <ZynAddSubFX-data ZynAddSubFX-author="Nasca Octavian Paul" version-major="2" version-minor="4" version-revision="1">
