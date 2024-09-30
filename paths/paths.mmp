@@ -1,60 +1,59 @@
 <?xml version="1.0"?>
-<!DOCTYPE lmms-project>
-<lmms-project creator="LMMS" type="song" version="1.0" creatorversion="1.2.2">
-  <head timesig_denominator="4" timesig_numerator="4" mastervol="100" bpm="120" masterpitch="0"/>
+<lmms-project creator="LMMS" creatorversion="1.2.2" type="song" version="1.0">
+  <head bpm="120" masterpitch="0" mastervol="100" timesig_denominator="4" timesig_numerator="4"/>
   <song>
-    <trackcontainer width="600" type="song" height="404" visible="1" maximized="0" x="72" y="22" minimized="0">
-      <track muted="0" type="0" name="Dry Clap" solo="0">
-        <instrumenttrack usemasterpitch="1" pitch="0" vol="25.6" basenote="57" fxch="0" pitchrange="1" pan="0">
+    <trackcontainer height="404" maximized="0" minimized="0" type="song" visible="1" width="600" x="72" y="22">
+      <track muted="0" name="Dry Clap" solo="0" type="0">
+        <instrumenttrack basenote="57" fxch="0" pan="0" pitch="0" pitchrange="1" usemasterpitch="1" vol="25.6">
           <instrument name="kicker">
-            <kicker endfreq="40" decay_syncmode="0" gain="1" startnote="0" env="0.56800002" noise="1" endnote="0" decay_numerator="4" slope="0.059999999" decay="223" dist="0" distend="0" startfreq="150" click="0.40000001" version="1" decay_denominator="4"/>
+            <kicker click="0.40000001" decay="223" decay_denominator="4" decay_numerator="4" decay_syncmode="0" dist="0" distend="0" endfreq="40" endnote="0" env="0.56800002" gain="1" noise="1" slope="0.059999999" startfreq="150" startnote="0" version="1"/>
           </instrument>
-          <eldata ftype="0" fwet="1" fres="1.64" fcut="4738">
-            <elvol lspd_numerator="4" dec="0.35699999" lpdel="0" latt="0" att="0" lamt="-1" amt="1" sustain="0" lshp="2" x100="1" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.099699996" pdel="0" hold="0" rel="0"/>
-            <elcut lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="1" amt="0" sustain="0.5" lshp="2" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="1" lspd="0.001" pdel="0" hold="0.5" rel="0.1"/>
-            <elres lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="0" amt="0" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
+          <eldata fcut="4738" fres="1.64" ftype="0" fwet="1">
+            <elvol amt="1" att="0" ctlenvamt="0" dec="0.35699999" hold="0" lamt="-1" latt="0" lpdel="0" lshp="2" lspd="0.099699996" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0" sustain="0" userwavefile="" x100="1"/>
+            <elcut amt="0" att="0" ctlenvamt="1" dec="0.5" hold="0.5" lamt="1" latt="0" lpdel="0" lshp="2" lspd="0.001" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+            <elres amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
           </eldata>
-          <chordcreator chordrange="1" chord="0" chord-enabled="0"/>
-          <arpeggiator arp="0" arptime_numerator="4" arpcycle="0" arptime_denominator="4" arpmiss="0" arpdir="0" arpmode="0" arptime_syncmode="0" arprange="1" arpskip="0" arptime="100" arpgate="100" arp-enabled="0"/>
-          <midiport readable="1" inputchannel="2" writable="0" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" outputcontroller="0" outputchannel="1" inputcontroller="0" outputprogram="1" basevelocity="63" inports="0:1 System:Announce,14:0 Midi Through:Midi Through Port-0"/>
+          <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+          <arpeggiator arp="0" arp-enabled="0" arpcycle="0" arpdir="0" arpgate="100" arpmiss="0" arpmode="0" arprange="1" arpskip="0" arptime="100" arptime_denominator="4" arptime_numerator="4" arptime_syncmode="0"/>
+          <midiport basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" inports="0:1 System:Announce,14:0 Midi Through:Midi Through Port-0" inputchannel="2" inputcontroller="0" outputchannel="1" outputcontroller="0" outputprogram="1" readable="1" writable="0"/>
           <fxchain enabled="1" numofeffects="2">
-            <effect on="1" autoquit_denominator="4" wet="1" autoquit="1" gate="0" autoquit_numerator="4" name="dualfilter" autoquit_syncmode="0">
-              <DualFilterControls gain2="100" enabled1="1" filter1="0" res1="1.64" enabled2="1" filter2="1" res2="0.5" cut1="1721" mix="-0.40000001" cut2="6461" gain1="100"/>
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="dualfilter" on="1" wet="1">
+              <DualFilterControls cut1="1721" cut2="6461" enabled1="1" enabled2="1" filter1="0" filter2="1" gain1="100" gain2="100" mix="-0.40000001" res1="1.64" res2="0.5"/>
               <key/>
             </effect>
-            <effect on="1" autoquit_denominator="4" wet="-0.17999999" autoquit="1" gate="0" autoquit_numerator="4" name="reverbsc" autoquit_syncmode="0">
-              <ReverbSCControls input_gain="0" size="0.88999999" color="10000" output_gain="0"/>
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="reverbsc" on="1" wet="-0.17999999">
+              <ReverbSCControls color="10000" input_gain="0" output_gain="0" size="0.88999999"/>
               <key/>
             </effect>
           </fxchain>
         </instrumenttrack>
       </track>
-      <track muted="0" type="0" name="Kick power" solo="0">
-        <instrumenttrack usemasterpitch="1" pitch="0" vol="37.600002" basenote="57" fxch="0" pitchrange="1" pan="0">
+      <track muted="0" name="Kick power" solo="0" type="0">
+        <instrumenttrack basenote="57" fxch="0" pan="0" pitch="0" pitchrange="1" usemasterpitch="1" vol="37.600002">
           <instrument name="kicker">
-            <kicker endfreq="30" decay_syncmode="0" gain="1" startnote="0" env="0.163" noise="0.2" endnote="0" decay_numerator="4" slope="0.37200001" decay="360" dist="1.2" distend="0.80000001" startfreq="145" click="0" version="1" decay_denominator="4"/>
+            <kicker click="0" decay="360" decay_denominator="4" decay_numerator="4" decay_syncmode="0" dist="1.2" distend="0.80000001" endfreq="30" endnote="0" env="0.163" gain="1" noise="0.2" slope="0.37200001" startfreq="145" startnote="0" version="1"/>
           </instrument>
-          <eldata ftype="0" fwet="1" fres="0.5" fcut="897">
-            <elvol lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0.0080000004" lamt="0" amt="1" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
-            <elcut lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="0" amt="0" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
-            <elres lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="0" amt="0" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
+          <eldata fcut="897" fres="0.5" ftype="0" fwet="1">
+            <elvol amt="1" att="0.0080000004" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+            <elcut amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+            <elres amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
           </eldata>
-          <chordcreator chordrange="1" chord="0" chord-enabled="0"/>
-          <arpeggiator arp="0" arptime_numerator="4" arpcycle="0" arptime_denominator="4" arpmiss="0" arpdir="0" arpmode="0" arptime_syncmode="0" arprange="1" arpskip="0" arptime="100" arpgate="100" arp-enabled="0"/>
-          <midiport readable="1" inputchannel="1" writable="0" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" outputcontroller="0" outputchannel="1" inputcontroller="0" outputprogram="1" basevelocity="63" inports="14:0 Midi Through:Midi Through Port-0"/>
+          <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+          <arpeggiator arp="0" arp-enabled="0" arpcycle="0" arpdir="0" arpgate="100" arpmiss="0" arpmode="0" arprange="1" arpskip="0" arptime="100" arptime_denominator="4" arptime_numerator="4" arptime_syncmode="0"/>
+          <midiport basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" inports="14:0 Midi Through:Midi Through Port-0" inputchannel="1" inputcontroller="0" outputchannel="1" outputcontroller="0" outputprogram="1" readable="1" writable="0"/>
           <fxchain enabled="1" numofeffects="1">
-            <effect on="1" autoquit_denominator="4" wet="0.16" autoquit="1" gate="0" autoquit_numerator="4" name="reverbsc" autoquit_syncmode="0">
-              <ReverbSCControls input_gain="0" size="0.88999999" color="10000" output_gain="0"/>
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="reverbsc" on="1" wet="0.16">
+              <ReverbSCControls color="10000" input_gain="0" output_gain="0" size="0.88999999"/>
               <key/>
             </effect>
           </fxchain>
         </instrumenttrack>
       </track>
-      <track muted="0" type="0" name="Warm Flute" solo="0">
-        <instrumenttrack usemasterpitch="1" pitch="0" vol="62.400002" basenote="45" fxch="0" pitchrange="1" pan="64">
+      <track muted="0" name="Warm Flute" solo="0" type="0">
+        <instrumenttrack basenote="45" fxch="0" pan="64" pitch="0" pitchrange="1" usemasterpitch="1" vol="62.400002">
           <instrument name="zynaddsubfx">
-            <zynaddsubfx filterq="64" modifiedcontrollers="74," filterfreq="29" bandwidth="64" resbandwidth="64" portamento="0" fmgain="127" rescenterfreq="64" forwardmidicc="1">
-              <ZynAddSubFX-data version-minor="4" version-revision="1" version-major="2" ZynAddSubFX-author="Nasca Octavian Paul">
+            <zynaddsubfx bandwidth="64" filterfreq="29" filterq="64" fmgain="127" forwardmidicc="1" modifiedcontrollers="74," portamento="0" resbandwidth="64" rescenterfreq="64">
+              <ZynAddSubFX-data ZynAddSubFX-author="Nasca Octavian Paul" version-major="2" version-minor="4" version-revision="1">
                 <INFORMATION/>
                 <BASE_PARAMETERS>
                   <par name="max_midi_parts" value="16"/>
@@ -922,31 +921,31 @@ and disappears on high notes. </string>
               </ZynAddSubFX-data>
             </zynaddsubfx>
           </instrument>
-          <eldata ftype="0" fwet="0" fres="0.5" fcut="14000">
-            <elvol lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="0" amt="0" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
-            <elcut lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="0" amt="0" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
-            <elres lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="0" amt="0" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
+          <eldata fcut="14000" fres="0.5" ftype="0" fwet="0">
+            <elvol amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+            <elcut amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+            <elres amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
           </eldata>
-          <chordcreator chordrange="3" chord="0" chord-enabled="1"/>
-          <arpeggiator arp="0" arptime_numerator="4" arpcycle="0" arptime_denominator="4" arpmiss="0" arpdir="0" arpmode="0" arptime_syncmode="0" arprange="1" arpskip="0" arptime="200" arpgate="100" arp-enabled="0"/>
-          <midiport readable="1" inputchannel="3" writable="0" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" outputcontroller="0" outputchannel="1" inputcontroller="0" outputprogram="1" basevelocity="63" inports="14:0 Midi Through:Midi Through Port-0"/>
+          <chordcreator chord="0" chord-enabled="1" chordrange="3"/>
+          <arpeggiator arp="0" arp-enabled="0" arpcycle="0" arpdir="0" arpgate="100" arpmiss="0" arpmode="0" arprange="1" arpskip="0" arptime="200" arptime_denominator="4" arptime_numerator="4" arptime_syncmode="0"/>
+          <midiport basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" inports="14:0 Midi Through:Midi Through Port-0" inputchannel="3" inputcontroller="0" outputchannel="1" outputcontroller="0" outputprogram="1" readable="1" writable="0"/>
           <fxchain enabled="1" numofeffects="2">
-            <effect on="1" autoquit_denominator="4" wet="1" autoquit="1" gate="0" autoquit_numerator="4" name="reverbsc" autoquit_syncmode="0">
-              <ReverbSCControls input_gain="0" size="0.88999999" color="10000" output_gain="0"/>
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="reverbsc" on="1" wet="1">
+              <ReverbSCControls color="10000" input_gain="0" output_gain="0" size="0.88999999"/>
               <key/>
             </effect>
-            <effect on="1" autoquit_denominator="4" wet="0.099999994" autoquit="1" gate="0" autoquit_numerator="4" name="reverbsc" autoquit_syncmode="0">
-              <ReverbSCControls input_gain="0" size="0.88999999" color="13397.2" output_gain="0"/>
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="reverbsc" on="1" wet="0.099999994">
+              <ReverbSCControls color="13397.2" input_gain="0" output_gain="0" size="0.88999999"/>
               <key/>
             </effect>
           </fxchain>
         </instrumenttrack>
       </track>
-      <track muted="0" type="0" name="Soft Choir" solo="0">
-        <instrumenttrack usemasterpitch="1" pitch="0" vol="128" basenote="45" fxch="0" pitchrange="1" pan="-48.799999">
+      <track muted="0" name="Soft Choir" solo="0" type="0">
+        <instrumenttrack basenote="45" fxch="0" pan="-50" pitch="0" pitchrange="1" usemasterpitch="1" vol="128">
           <instrument name="zynaddsubfx">
-            <zynaddsubfx filterq="64" modifiedcontrollers="" filterfreq="64" bandwidth="64" resbandwidth="64" portamento="0" fmgain="127" rescenterfreq="64" forwardmidicc="1">
-              <ZynAddSubFX-data version-minor="4" version-revision="1" version-major="2" ZynAddSubFX-author="Nasca Octavian Paul">
+            <zynaddsubfx bandwidth="64" filterfreq="64" filterq="64" fmgain="127" forwardmidicc="1" modifiedcontrollers="" portamento="0" resbandwidth="64" rescenterfreq="64">
+              <ZynAddSubFX-data ZynAddSubFX-author="Nasca Octavian Paul" version-major="2" version-minor="4" version-revision="1">
                 <INFORMATION/>
                 <BASE_PARAMETERS>
                   <par name="max_midi_parts" value="16"/>
@@ -1645,20 +1644,20 @@ GPL V 2 or later</string>
               </ZynAddSubFX-data>
             </zynaddsubfx>
           </instrument>
-          <eldata ftype="0" fwet="0" fres="0.5" fcut="14000">
-            <elvol lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="0" amt="0" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
-            <elcut lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="0" amt="0" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
-            <elres lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="0" amt="0" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
+          <eldata fcut="14000" fres="0.5" ftype="0" fwet="0">
+            <elvol amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+            <elcut amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+            <elres amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
           </eldata>
-          <chordcreator chordrange="2" chord="0" chord-enabled="1"/>
-          <arpeggiator arp="0" arptime_numerator="4" arpcycle="0" arptime_denominator="4" arpmiss="0" arpdir="0" arpmode="0" arptime_syncmode="0" arprange="1" arpskip="0" arptime="200" arpgate="100" arp-enabled="0"/>
-          <midiport readable="1" inputchannel="3" writable="0" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" outputcontroller="0" outputchannel="1" inputcontroller="0" outputprogram="1" basevelocity="63" inports="14:0 Midi Through:Midi Through Port-0"/>
+          <chordcreator chord="0" chord-enabled="1" chordrange="2"/>
+          <arpeggiator arp="0" arp-enabled="0" arpcycle="0" arpdir="0" arpgate="100" arpmiss="0" arpmode="0" arprange="1" arpskip="0" arptime="200" arptime_denominator="4" arptime_numerator="4" arptime_syncmode="0"/>
+          <midiport basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" inports="14:0 Midi Through:Midi Through Port-0" inputchannel="3" inputcontroller="0" outputchannel="1" outputcontroller="0" outputprogram="1" readable="1" writable="0"/>
           <fxchain enabled="1" numofeffects="3">
-            <effect on="1" autoquit_denominator="4" wet="1" autoquit="1" gate="0" autoquit_numerator="4" name="reverbsc" autoquit_syncmode="0">
-              <ReverbSCControls input_gain="0" size="0.88999999" color="13337.601" output_gain="0"/>
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="reverbsc" on="1" wet="1">
+              <ReverbSCControls color="13337.601" input_gain="0" output_gain="0" size="0.88999999"/>
               <key/>
             </effect>
-            <effect on="1" autoquit_denominator="4" wet="0.53999996" autoquit="1" gate="0" autoquit_numerator="4" name="ladspaeffect" autoquit_syncmode="0">
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="ladspaeffect" on="1" wet="0.53999996">
               <ladspacontrols ports="5">
                 <port00 data="1990"/>
                 <port01 data="33"/>
@@ -1671,18 +1670,18 @@ GPL V 2 or later</string>
                 <attribute name="plugin" value="vynil"/>
               </key>
             </effect>
-            <effect on="1" autoquit_denominator="4" wet="1" autoquit="1" gate="0" autoquit_numerator="4" name="reverbsc" autoquit_syncmode="0">
-              <ReverbSCControls input_gain="0" size="0.88999999" color="10000" output_gain="0"/>
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="reverbsc" on="1" wet="1">
+              <ReverbSCControls color="10000" input_gain="0" output_gain="0" size="0.88999999"/>
               <key/>
             </effect>
           </fxchain>
         </instrumenttrack>
       </track>
-      <track muted="0" type="0" name="Dist Jazz Guitar" solo="0">
-        <instrumenttrack usemasterpitch="1" pitch="0" vol="149.60001" basenote="57" fxch="0" pitchrange="1" pan="-67.200005">
+      <track muted="0" name="Dist Jazz Guitar" solo="0" type="0">
+        <instrumenttrack basenote="57" fxch="0" pan="-67.200005" pitch="0" pitchrange="1" usemasterpitch="1" vol="149.60001">
           <instrument name="zynaddsubfx">
-            <zynaddsubfx filterq="64" modifiedcontrollers="" filterfreq="64" bandwidth="64" resbandwidth="64" portamento="0" fmgain="127" rescenterfreq="64" forwardmidicc="1">
-              <ZynAddSubFX-data version-minor="4" version-revision="1" version-major="2" ZynAddSubFX-author="Nasca Octavian Paul">
+            <zynaddsubfx bandwidth="64" filterfreq="64" filterq="64" fmgain="127" forwardmidicc="1" modifiedcontrollers="" portamento="0" resbandwidth="64" rescenterfreq="64">
+              <ZynAddSubFX-data ZynAddSubFX-author="Nasca Octavian Paul" version-major="2" version-minor="4" version-revision="1">
                 <INFORMATION/>
                 <BASE_PARAMETERS>
                   <par name="max_midi_parts" value="16"/>
@@ -3530,24 +3529,24 @@ Play in legato, please!</string>
               </ZynAddSubFX-data>
             </zynaddsubfx>
           </instrument>
-          <eldata ftype="0" fwet="0" fres="0.5" fcut="14000">
-            <elvol lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="0" amt="0" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
-            <elcut lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="0" amt="0" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
-            <elres lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="0" amt="0" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
+          <eldata fcut="14000" fres="0.5" ftype="0" fwet="0">
+            <elvol amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+            <elcut amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+            <elres amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
           </eldata>
-          <chordcreator chordrange="2" chord="0" chord-enabled="1"/>
-          <arpeggiator arp="0" arptime_numerator="4" arpcycle="0" arptime_denominator="4" arpmiss="0" arpdir="0" arpmode="0" arptime_syncmode="0" arprange="1" arpskip="0" arptime="200" arpgate="100" arp-enabled="0"/>
-          <midiport readable="1" inputchannel="5" writable="0" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" outputcontroller="0" outputchannel="1" inputcontroller="0" outputprogram="1" basevelocity="63" inports="14:0 Midi Through:Midi Through Port-0"/>
+          <chordcreator chord="0" chord-enabled="1" chordrange="2"/>
+          <arpeggiator arp="0" arp-enabled="0" arpcycle="0" arpdir="0" arpgate="100" arpmiss="0" arpmode="0" arprange="1" arpskip="0" arptime="200" arptime_denominator="4" arptime_numerator="4" arptime_syncmode="0"/>
+          <midiport basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" inports="14:0 Midi Through:Midi Through Port-0" inputchannel="5" inputcontroller="0" outputchannel="1" outputcontroller="0" outputprogram="1" readable="1" writable="0"/>
           <fxchain enabled="1" numofeffects="2">
-            <effect on="1" autoquit_denominator="4" wet="0.42999998" autoquit="1" gate="0" autoquit_numerator="4" name="reverbsc" autoquit_syncmode="0">
-              <ReverbSCControls input_gain="0" size="0.64999998" color="10000" output_gain="0"/>
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="reverbsc" on="1" wet="0.42999998">
+              <ReverbSCControls color="10000" input_gain="0" output_gain="0" size="0.64999998"/>
               <key/>
             </effect>
-            <effect on="1" autoquit_denominator="4" wet="1" autoquit="1" gate="0" autoquit_numerator="4" name="ladspaeffect" autoquit_syncmode="0">
-              <ladspacontrols ports="4" link="1">
-                <port00 data_denominator="4" data_syncmode="0" data_numerator="4" data="1000" link="1"/>
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="ladspaeffect" on="1" wet="1">
+              <ladspacontrols link="1" ports="4">
+                <port00 data="1000" data_denominator="4" data_numerator="4" data_syncmode="0" link="1"/>
                 <port01 data="-6.5625" link="1"/>
-                <port10 data_denominator="4" data_syncmode="0" data_numerator="4" data="1000"/>
+                <port10 data="1000" data_denominator="4" data_numerator="4" data_syncmode="0"/>
                 <port11 data="-6.5625"/>
               </ladspacontrols>
               <key>
@@ -3558,11 +3557,11 @@ Play in legato, please!</string>
           </fxchain>
         </instrumenttrack>
       </track>
-      <track muted="0" type="0" name="Dist Jazz Guitar" solo="0">
-        <instrumenttrack usemasterpitch="1" pitch="0" vol="168.8" basenote="57" fxch="0" pitchrange="1" pan="67.200005">
+      <track muted="0" name="Dist Jazz Guitar" solo="0" type="0">
+        <instrumenttrack basenote="57" fxch="0" pan="67.200005" pitch="0" pitchrange="1" usemasterpitch="1" vol="168.8">
           <instrument name="zynaddsubfx">
-            <zynaddsubfx filterq="64" modifiedcontrollers="" filterfreq="64" bandwidth="64" resbandwidth="64" portamento="0" fmgain="127" rescenterfreq="64" forwardmidicc="1">
-              <ZynAddSubFX-data version-minor="4" version-revision="1" version-major="2" ZynAddSubFX-author="Nasca Octavian Paul">
+            <zynaddsubfx bandwidth="64" filterfreq="64" filterq="64" fmgain="127" forwardmidicc="1" modifiedcontrollers="" portamento="0" resbandwidth="64" rescenterfreq="64">
+              <ZynAddSubFX-data ZynAddSubFX-author="Nasca Octavian Paul" version-major="2" version-minor="4" version-revision="1">
                 <INFORMATION/>
                 <BASE_PARAMETERS>
                   <par name="max_midi_parts" value="16"/>
@@ -5410,24 +5409,24 @@ Play in legato, please!</string>
               </ZynAddSubFX-data>
             </zynaddsubfx>
           </instrument>
-          <eldata ftype="0" fwet="0" fres="0.5" fcut="14000">
-            <elvol lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="0" amt="0" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
-            <elcut lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="0" amt="0" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
-            <elres lspd_numerator="4" dec="0.5" lpdel="0" latt="0" att="0" lamt="0" amt="0" sustain="0.5" lshp="0" x100="0" userwavefile="" lspd_denominator="4" lspd_syncmode="0" ctlenvamt="0" lspd="0.1" pdel="0" hold="0.5" rel="0.1"/>
+          <eldata fcut="14000" fres="0.5" ftype="0" fwet="0">
+            <elvol amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+            <elcut amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
+            <elres amt="0" att="0" ctlenvamt="0" dec="0.5" hold="0.5" lamt="0" latt="0" lpdel="0" lshp="0" lspd="0.1" lspd_denominator="4" lspd_numerator="4" lspd_syncmode="0" pdel="0" rel="0.1" sustain="0.5" userwavefile="" x100="0"/>
           </eldata>
-          <chordcreator chordrange="1" chord="0" chord-enabled="0"/>
-          <arpeggiator arp="0" arptime_numerator="4" arpcycle="0" arptime_denominator="4" arpmiss="0" arpdir="0" arpmode="0" arptime_syncmode="0" arprange="1" arpskip="0" arptime="200" arpgate="100" arp-enabled="0"/>
-          <midiport readable="1" inputchannel="6" writable="0" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" outputcontroller="0" outputchannel="1" inputcontroller="0" outputprogram="1" basevelocity="63" inports="14:0 Midi Through:Midi Through Port-0"/>
+          <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
+          <arpeggiator arp="0" arp-enabled="0" arpcycle="0" arpdir="0" arpgate="100" arpmiss="0" arpmode="0" arprange="1" arpskip="0" arptime="200" arptime_denominator="4" arptime_numerator="4" arptime_syncmode="0"/>
+          <midiport basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" inports="14:0 Midi Through:Midi Through Port-0" inputchannel="6" inputcontroller="0" outputchannel="1" outputcontroller="0" outputprogram="1" readable="1" writable="0"/>
           <fxchain enabled="1" numofeffects="2">
-            <effect on="1" autoquit_denominator="4" wet="0.42999998" autoquit="1" gate="0" autoquit_numerator="4" name="reverbsc" autoquit_syncmode="0">
-              <ReverbSCControls input_gain="0" size="0.64999998" color="10000" output_gain="0"/>
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="reverbsc" on="1" wet="0.42999998">
+              <ReverbSCControls color="10000" input_gain="0" output_gain="0" size="0.64999998"/>
               <key/>
             </effect>
-            <effect on="1" autoquit_denominator="4" wet="1" autoquit="1" gate="0" autoquit_numerator="4" name="ladspaeffect" autoquit_syncmode="0">
-              <ladspacontrols ports="4" link="1">
-                <port00 data_denominator="4" data_syncmode="0" data_numerator="4" data="1000" link="1"/>
+            <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="ladspaeffect" on="1" wet="1">
+              <ladspacontrols link="1" ports="4">
+                <port00 data="1000" data_denominator="4" data_numerator="4" data_syncmode="0" link="1"/>
                 <port01 data="-6.5625" link="1"/>
-                <port10 data_denominator="4" data_syncmode="0" data_numerator="4" data="1000"/>
+                <port10 data="1000" data_denominator="4" data_numerator="4" data_syncmode="0"/>
                 <port11 data="-6.5625"/>
               </ladspacontrols>
               <key>
@@ -5439,23 +5438,23 @@ Play in legato, please!</string>
         </instrumenttrack>
       </track>
     </trackcontainer>
-    <track muted="0" type="6" name="Automation track" solo="0">
+    <track muted="0" name="Automation track" solo="0" type="6">
       <automationtrack/>
-      <automationpattern len="192" prog="0" mute="0" pos="0" name="Numerator" tens="1"/>
-      <automationpattern len="192" prog="0" mute="0" pos="0" name="Denominator" tens="1"/>
-      <automationpattern len="192" prog="0" mute="0" pos="0" name="Tempo" tens="1"/>
-      <automationpattern len="192" prog="0" mute="0" pos="0" name="Master volume" tens="1"/>
-      <automationpattern len="192" prog="0" mute="0" pos="0" name="Master pitch" tens="1"/>
+      <automationpattern len="192" mute="0" name="Numerator" pos="0" prog="0" tens="1"/>
+      <automationpattern len="192" mute="0" name="Denominator" pos="0" prog="0" tens="1"/>
+      <automationpattern len="192" mute="0" name="Tempo" pos="0" prog="0" tens="1"/>
+      <automationpattern len="192" mute="0" name="Master volume" pos="0" prog="0" tens="1"/>
+      <automationpattern len="192" mute="0" name="Master pitch" pos="0" prog="0" tens="1"/>
     </track>
-    <fxmixer width="543" height="333" visible="1" maximized="0" x="5" y="310" minimized="0">
-      <fxchannel muted="0" num="0" name="Master" volume="1" soloed="0">
+    <fxmixer height="333" maximized="0" minimized="0" visible="1" width="543" x="5" y="310">
+      <fxchannel muted="0" name="Master" num="0" soloed="0" volume="1">
         <fxchain enabled="1" numofeffects="4">
-          <effect on="1" autoquit_denominator="4" wet="-0.079999998" autoquit="1" gate="0" autoquit_numerator="4" name="reverbsc" autoquit_syncmode="0">
-            <ReverbSCControls input_gain="0" size="0.88999999" color="11013.2" output_gain="0"/>
+          <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="reverbsc" on="1" wet="-0.079999998">
+            <ReverbSCControls color="11013.2" input_gain="0" output_gain="0" size="0.88999999"/>
             <key/>
           </effect>
-          <effect on="1" autoquit_denominator="4" wet="1" autoquit="1" gate="0" autoquit_numerator="4" name="ladspaeffect" autoquit_syncmode="0">
-            <ladspacontrols ports="6" link="1">
+          <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="ladspaeffect" on="1" wet="1">
+            <ladspacontrols link="1" ports="6">
               <port00 data="6" link="1"/>
               <port01 data="5.4000001" link="1"/>
               <port02 data="0.041249998" link="1"/>
@@ -5468,26 +5467,26 @@ Play in legato, please!</string>
               <attribute name="plugin" value="Saturate"/>
             </key>
           </effect>
-          <effect on="1" autoquit_denominator="4" wet="1" autoquit="1" gate="0" autoquit_numerator="4" name="eq" autoquit_syncmode="0">
-            <Eq HighShelfgain="0" LP48="0" LowShelfres="1.4" LPactive="0" AnalyseIn="1" LP24="0" AnalyseOut="1" HPactive="1" Outputgain="10" LP12="1" HP48="1" HP="2" Highshelfactive="0" Peak4active="1" HighShelfres="1.4" HP24="0" HPres="0.86700004" Lowshelfactive="0" Peak2gain="-7.7400002" HP12="0" Peak3gain="-1.26" LPres="0.70700002" Peak4gain="0" LP="0" Peak4bw="0.30200002" Peak3active="1" Peak3bw="3.3610001" Peak2active="1" Lowshelfgain="0" Peak2bw="0.75800002" Peak1active="1" Peak1bw="2.7520001">
-              <Inputgain scale_type="log" id="5743394" value="0"/>
-              <Peak1gain scale_type="log" id="5658512" value="-4.3190002"/>
-              <HPfreq scale_type="log" id="7957557" value="30.307707"/>
-              <LowShelffreq scale_type="log" id="1169192" value="80"/>
-              <Peak1freq scale_type="log" id="829114" value="121.98859"/>
-              <Peak2freq scale_type="log" id="3431633" value="312.30029"/>
-              <Peak3freq scale_type="log" id="5000478" value="1426.8002"/>
-              <Peak4freq scale_type="log" id="6350189" value="4000.0007"/>
-              <Highshelffreq scale_type="log" id="462356" value="11999.999"/>
-              <LPfreq scale_type="log" id="1851225" value="17999.996"/>
+          <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="eq" on="1" wet="1">
+            <Eq AnalyseIn="1" AnalyseOut="1" HP="2" HP12="0" HP24="0" HP48="1" HPactive="1" HPres="0.86700004" HighShelfgain="0" HighShelfres="1.4" Highshelfactive="0" LP="0" LP12="1" LP24="0" LP48="0" LPactive="0" LPres="0.70700002" LowShelfres="1.4" Lowshelfactive="0" Lowshelfgain="0" Outputgain="10" Peak1active="1" Peak1bw="2.7520001" Peak2active="1" Peak2bw="0.75800002" Peak2gain="-7.7400002" Peak3active="1" Peak3bw="3.3610001" Peak3gain="-1.26" Peak4active="1" Peak4bw="0.30200002" Peak4gain="0">
+              <Inputgain id="5743394" scale_type="log" value="0"/>
+              <Peak1gain id="5658512" scale_type="log" value="-4.3190002"/>
+              <HPfreq id="7957557" scale_type="log" value="30.307707"/>
+              <LowShelffreq id="1169192" scale_type="log" value="80"/>
+              <Peak1freq id="829114" scale_type="log" value="121.98859"/>
+              <Peak2freq id="3431633" scale_type="log" value="312.30029"/>
+              <Peak3freq id="5000478" scale_type="log" value="1426.8002"/>
+              <Peak4freq id="6350189" scale_type="log" value="4000.0007"/>
+              <Highshelffreq id="462356" scale_type="log" value="11999.999"/>
+              <LPfreq id="1851225" scale_type="log" value="17999.996"/>
             </Eq>
             <key/>
           </effect>
-          <effect on="1" autoquit_denominator="4" wet="1" autoquit="1" gate="0" autoquit_numerator="4" name="ladspaeffect" autoquit_syncmode="0">
+          <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="ladspaeffect" on="1" wet="1">
             <ladspacontrols ports="3">
               <port00 data="0"/>
               <port01 data="0"/>
-              <port02 data_denominator="4" data_syncmode="0" data_numerator="4" data="507.5"/>
+              <port02 data="507.5" data_denominator="4" data_numerator="4" data_syncmode="0"/>
             </ladspacontrols>
             <key>
               <attribute name="file" value="fast_lookahead_limiter_1913"/>
@@ -5497,15 +5496,15 @@ Play in legato, please!</string>
         </fxchain>
       </fxchannel>
     </fxmixer>
-    <ControllerRackView width="350" height="200" visible="1" maximized="0" x="680" y="310" minimized="0"/>
-    <pianoroll width="860" height="480" visible="1" maximized="0" x="69" y="92" minimized="0"/>
-    <automationeditor width="860" height="400" visible="0" maximized="0" x="1" y="1" minimized="0"/>
-    <projectnotes width="771" height="400" visible="0" maximized="0" x="700" y="10" minimized="0"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
-<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+    <ControllerRackView height="200" maximized="0" minimized="0" visible="1" width="350" x="680" y="310"/>
+    <pianoroll height="480" maximized="0" minimized="0" visible="1" width="860" x="69" y="92"/>
+    <automationeditor height="400" maximized="0" minimized="0" visible="0" width="860" x="1" y="1"/>
+    <projectnotes height="400" maximized="0" minimized="0" visible="0" width="771" x="700" y="10">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
 p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;">
-<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>]]></projectnotes>
-    <timeline lp1pos="192" lpstate="0" lp0pos="0"/>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;"&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</projectnotes>
+    <timeline lp0pos="0" lp1pos="192" lpstate="0"/>
     <controllers/>
   </song>
 </lmms-project>
