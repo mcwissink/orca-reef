@@ -3,7 +3,7 @@
   <head bpm="120" masterpitch="0" mastervol="100" timesig_denominator="4" timesig_numerator="4"/>
   <song>
     <trackcontainer height="300" maximized="0" minimized="0" type="song" visible="1" width="600" x="5" y="5">
-      <track height="470" maximized="0" minimized="0" muted="0" name="Drum Kit" solo="0" tab="0" type="0" visible="1" width="262" x="605" y="0">
+      <track muted="0" name="Drum Kit" solo="0" type="0">
         <instrumenttrack basenote="57" fxch="0" pan="54.400002" pitch="0" pitchrange="1" usemasterpitch="1" vol="125.6">
           <instrument name="zynaddsubfx">
             <zynaddsubfx bandwidth="64" filterfreq="64" filterq="64" fmgain="127" forwardmidicc="1" modifiedcontrollers="" portamento="0" resbandwidth="64" rescenterfreq="64">
@@ -8387,7 +8387,7 @@ See kit for keyboard map. </string>
           </eldata>
           <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
           <arpeggiator arp="0" arp-enabled="0" arpcycle="0" arpdir="0" arpgate="100" arpmiss="0" arpmode="0" arprange="1" arpskip="0" arptime="200" arptime_denominator="4" arptime_numerator="4" arptime_syncmode="0"/>
-          <midiport basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" inports="14:0 Midi Through:Midi Through Port-0" inputchannel="1" inputcontroller="0" outputchannel="1" outputcontroller="0" outputprogram="1" readable="1" writable="0"/>
+          <midiport basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" inports="14:0 Midi Through:Midi Through Port-0" inputchannel="10" inputcontroller="0" outputchannel="1" outputcontroller="0" outputprogram="1" readable="1" writable="0"/>
           <fxchain enabled="1" numofeffects="7">
             <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="bitcrush" on="1" wet="1">
               <bitcrushcontrols depthon="1" ingain="6.3000002" innoise="0" levels="256" outclip="20" outgain="2.2" rate="10069" rateon="1" stereodiff="0"/>
@@ -8460,7 +8460,7 @@ See kit for keyboard map. </string>
           </fxchain>
         </instrumenttrack>
       </track>
-      <track muted="0" name="sines_pad" solo="0" type="0">
+      <track height="470" maximized="0" minimized="0" muted="0" name="sines_pad" solo="0" tab="4" type="0" visible="1" width="262" x="867" y="0">
         <instrumenttrack basenote="57" fxch="0" pan="0" pitch="0" pitchrange="1" usemasterpitch="1" vol="45.600002">
           <instrument name="zynaddsubfx">
             <zynaddsubfx bandwidth="64" filterfreq="64" filterq="64" fmgain="127" forwardmidicc="1" modifiedcontrollers="" portamento="0" resbandwidth="64" rescenterfreq="64">
@@ -9249,7 +9249,7 @@ See kit for keyboard map. </string>
           </eldata>
           <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
           <arpeggiator arp="0" arp-enabled="0" arpcycle="0" arpdir="0" arpgate="100" arpmiss="0" arpmode="0" arprange="1" arpskip="0" arptime="200" arptime_denominator="4" arptime_numerator="4" arptime_syncmode="0"/>
-          <midiport basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" inports="14:0 Midi Through:Midi Through Port-0" inputchannel="2" inputcontroller="0" outputchannel="1" outputcontroller="0" outputprogram="1" readable="1" writable="0"/>
+          <midiport basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" inports="14:0 Midi Through:Midi Through Port-0" inputchannel="5" inputcontroller="0" outputchannel="1" outputcontroller="0" outputprogram="1" readable="1" writable="0"/>
           <fxchain enabled="1" numofeffects="1">
             <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="reverbsc" on="1" wet="1">
               <ReverbSCControls color="10000" input_gain="0" output_gain="0" size="0.88999999"/>
@@ -9258,7 +9258,7 @@ See kit for keyboard map. </string>
           </fxchain>
         </instrumenttrack>
       </track>
-      <track muted="0" name="power_pulsions_lead" solo="0" type="0">
+      <track height="470" maximized="0" minimized="0" muted="0" name="power_pulsions_lead" solo="0" tab="4" type="0" visible="1" width="262" x="1129" y="0">
         <instrumenttrack basenote="57" fxch="0" pan="0" pitch="0" pitchrange="1" usemasterpitch="1" vol="42.400002">
           <instrument name="zynaddsubfx">
             <zynaddsubfx bandwidth="65" filterfreq="54" filterq="46" fmgain="127" forwardmidicc="1" modifiedcontrollers="71,74,75," portamento="0" resbandwidth="64" rescenterfreq="64">
@@ -10123,7 +10123,7 @@ See kit for keyboard map. </string>
           </eldata>
           <chordcreator chord="0" chord-enabled="0" chordrange="1"/>
           <arpeggiator arp="0" arp-enabled="0" arpcycle="0" arpdir="0" arpgate="100" arpmiss="0" arpmode="0" arprange="1" arpskip="0" arptime="200" arptime_denominator="4" arptime_numerator="4" arptime_syncmode="0"/>
-          <midiport basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" inports="14:0 Midi Through:Midi Through Port-0" inputchannel="3" inputcontroller="0" outputchannel="1" outputcontroller="0" outputprogram="1" readable="1" writable="0"/>
+          <midiport basevelocity="63" fixedinputvelocity="-1" fixedoutputnote="-1" fixedoutputvelocity="-1" inports="14:0 Midi Through:Midi Through Port-0" inputchannel="1" inputcontroller="0" outputchannel="1" outputcontroller="0" outputprogram="1" readable="1" writable="0"/>
           <fxchain enabled="1" numofeffects="3">
             <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="reverbsc" on="1" wet="1">
               <ReverbSCControls color="15000" input_gain="-9.3000002" output_gain="0" size="0.95999998"/>
