@@ -4,7 +4,7 @@
   <song>
     <trackcontainer height="300" maximized="0" minimized="0" type="song" visible="1" width="600" x="5" y="5">
       <track muted="0" name="Drum Kit" solo="0" type="0">
-        <instrumenttrack basenote="57" fxch="0" pan="54.400002" pitch="0" pitchrange="1" usemasterpitch="1" vol="125.6">
+        <instrumenttrack basenote="57" fxch="3" pan="54.400002" pitch="0" pitchrange="1" usemasterpitch="1" vol="200">
           <instrument name="zynaddsubfx">
             <zynaddsubfx bandwidth="64" filterfreq="64" filterq="64" fmgain="127" forwardmidicc="1" modifiedcontrollers="" portamento="0" resbandwidth="64" rescenterfreq="64">
               <ZynAddSubFX-data ZynAddSubFX-author="Nasca Octavian Paul" version-major="2" version-minor="4" version-revision="1">
@@ -8443,12 +8443,12 @@ See kit for keyboard map. </string>
               </key>
             </effect>
             <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="eq" on="1" wet="1">
-              <Eq AnalyseIn="1" AnalyseOut="1" HP="0" HP12="1" HP24="0" HP48="0" HPactive="0" HPres="0.70700002" HighShelfgain="0" HighShelfres="1.4" Highshelfactive="0" LP="0" LP12="1" LP24="0" LP48="0" LPactive="1" LPres="0.70700002" LowShelfres="1.4" Lowshelfactive="0" Lowshelfgain="0" Outputgain="0" Peak1active="1" Peak1bw="2.8990002" Peak2active="0" Peak2bw="0.30000001" Peak2gain="0" Peak3active="1" Peak3bw="1.1999999" Peak3gain="-17.820002" Peak4active="0" Peak4bw="0.30000001" Peak4gain="0">
+              <Eq AnalyseIn="1" AnalyseOut="1" HP="0" HP12="1" HP24="0" HP48="0" HPactive="1" HPres="0.70700002" HighShelfgain="0" HighShelfres="1.4" Highshelfactive="0" LP="0" LP12="1" LP24="0" LP48="0" LPactive="1" LPres="0.70700002" LowShelfres="1.4" Lowshelfactive="0" Lowshelfgain="0" Outputgain="4.7999997" Peak1active="1" Peak1bw="2.8990002" Peak2active="0" Peak2bw="0.30000001" Peak2gain="0" Peak3active="1" Peak3bw="1.1999999" Peak3gain="-17.820002" Peak4active="0" Peak4bw="0.30000001" Peak4gain="0">
                 <Inputgain id="656181" scale_type="log" value="0"/>
-                <Peak1gain id="6745587" scale_type="log" value="2.3400002"/>
-                <HPfreq id="7075938" scale_type="log" value="31.000004"/>
+                <Peak1gain id="6745587" scale_type="log" value="-1.26"/>
+                <HPfreq id="7075938" scale_type="log" value="62.809952"/>
                 <LowShelffreq id="415548" scale_type="log" value="80"/>
-                <Peak1freq id="2674777" scale_type="log" value="55.084587"/>
+                <Peak1freq id="2674777" scale_type="log" value="64.223923"/>
                 <Peak2freq id="3389607" scale_type="log" value="250.00009"/>
                 <Peak3freq id="8222986" scale_type="log" value="479.76636"/>
                 <Peak4freq id="6178001" scale_type="log" value="4000.0007"/>
@@ -8460,8 +8460,8 @@ See kit for keyboard map. </string>
           </fxchain>
         </instrumenttrack>
       </track>
-      <track height="470" maximized="0" minimized="0" muted="0" name="sines_pad" solo="0" tab="4" type="0" visible="1" width="262" x="867" y="0">
-        <instrumenttrack basenote="57" fxch="0" pan="0" pitch="0" pitchrange="1" usemasterpitch="1" vol="45.600002">
+      <track muted="0" name="sines_pad" solo="0" type="0">
+        <instrumenttrack basenote="57" fxch="1" pan="0" pitch="0" pitchrange="1" usemasterpitch="1" vol="113.6">
           <instrument name="zynaddsubfx">
             <zynaddsubfx bandwidth="64" filterfreq="64" filterq="64" fmgain="127" forwardmidicc="1" modifiedcontrollers="" portamento="0" resbandwidth="64" rescenterfreq="64">
               <ZynAddSubFX-data ZynAddSubFX-author="Nasca Octavian Paul" version-major="2" version-minor="4" version-revision="1">
@@ -9258,8 +9258,8 @@ See kit for keyboard map. </string>
           </fxchain>
         </instrumenttrack>
       </track>
-      <track height="470" maximized="0" minimized="0" muted="0" name="power_pulsions_lead" solo="0" tab="4" type="0" visible="1" width="262" x="1129" y="0">
-        <instrumenttrack basenote="57" fxch="0" pan="0" pitch="0" pitchrange="1" usemasterpitch="1" vol="42.400002">
+      <track muted="0" name="power_pulsions_lead" solo="0" type="0">
+        <instrumenttrack basenote="57" fxch="2" pan="0" pitch="0" pitchrange="1" usemasterpitch="1" vol="134.40001">
           <instrument name="zynaddsubfx">
             <zynaddsubfx bandwidth="65" filterfreq="54" filterq="46" fmgain="127" forwardmidicc="1" modifiedcontrollers="71,74,75," portamento="0" resbandwidth="64" rescenterfreq="64">
               <ZynAddSubFX-data ZynAddSubFX-author="Nasca Octavian Paul" version-major="2" version-minor="4" version-revision="1">
@@ -10159,9 +10159,9 @@ See kit for keyboard map. </string>
       <automationpattern len="192" mute="0" name="Master pitch" pos="0" prog="0" tens="1"/>
     </track>
     <fxmixer height="333" maximized="0" minimized="0" visible="1" width="543" x="5" y="310">
-      <fxchannel muted="0" name="Master" num="0" soloed="0" volume="1">
-        <fxchain enabled="1" numofeffects="2">
-          <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="stereoenhancer" on="1" wet="0.14999999">
+      <fxchannel muted="0" name="Master" num="0" soloed="0" volume="0.97700006">
+        <fxchain enabled="1" numofeffects="3">
+          <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="stereoenhancer" on="1" wet="1">
             <stereoenhancercontrols width="180"/>
             <key/>
           </effect>
@@ -10176,7 +10176,34 @@ See kit for keyboard map. </string>
               <attribute name="plugin" value="fastLookaheadLimiter"/>
             </key>
           </effect>
+          <effect autoquit="1" autoquit_denominator="4" autoquit_numerator="4" autoquit_syncmode="0" gate="0" name="eq" on="1" wet="1">
+            <Eq AnalyseIn="1" AnalyseOut="1" HP="0" HP12="1" HP24="0" HP48="0" HPactive="0" HPres="0.70700002" HighShelfgain="0" HighShelfres="1.4" Highshelfactive="0" LP="0" LP12="1" LP24="0" LP48="0" LPactive="0" LPres="0.70700002" LowShelfres="1.4" Lowshelfactive="1" Lowshelfgain="-3.0600002" Outputgain="0" Peak1active="0" Peak1bw="0.30000001" Peak2active="1" Peak2bw="0.30000001" Peak2gain="-15.120001" Peak3active="0" Peak3bw="0.30000001" Peak3gain="0" Peak4active="1" Peak4bw="4" Peak4gain="3.2409999">
+              <Inputgain id="7361897" scale_type="log" value="0"/>
+              <Peak1gain id="5741766" scale_type="log" value="0"/>
+              <HPfreq id="6428662" scale_type="log" value="31.000004"/>
+              <LowShelffreq id="5322539" scale_type="log" value="194.87529"/>
+              <Peak1freq id="4595607" scale_type="log" value="119.99998"/>
+              <Peak2freq id="7980163" scale_type="log" value="334.66241"/>
+              <Peak3freq id="1270926" scale_type="log" value="1999.9996"/>
+              <Peak4freq id="5117914" scale_type="log" value="5521.5366"/>
+              <Highshelffreq id="2282262" scale_type="log" value="11999.999"/>
+              <LPfreq id="1698868" scale_type="log" value="17999.996"/>
+            </Eq>
+            <key/>
+          </effect>
         </fxchain>
+      </fxchannel>
+      <fxchannel muted="0" name="sines_pad" num="1" soloed="0" volume="1">
+        <fxchain enabled="0" numofeffects="0"/>
+        <send amount="1" channel="0"/>
+      </fxchannel>
+      <fxchannel muted="0" name="power_pulsions_lead" num="2" soloed="0" volume="1">
+        <fxchain enabled="0" numofeffects="0"/>
+        <send amount="1" channel="0"/>
+      </fxchannel>
+      <fxchannel muted="0" name="Drum Kit" num="3" soloed="0" volume="1">
+        <fxchain enabled="0" numofeffects="0"/>
+        <send amount="1" channel="0"/>
       </fxchannel>
     </fxmixer>
     <ControllerRackView height="200" maximized="0" minimized="0" visible="0" width="350" x="680" y="310"/>
